@@ -8,7 +8,7 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import math
 
-# Simply take centroid of 512-d embeddings
+# Take centroid of 512-d embeddings
 def feed_representation(feed):
     feed_repr = np.zeros((1,512))
     for item in feed:
@@ -30,7 +30,7 @@ def embed(input):
     return model(input)
 
 print("Started computing similarity matrix...")
-feeds_df = pd.read_csv('feeds.csv', header=None)
+feeds_df = pd.read_csv('output/feeds.csv', header=None)
 feeds_df["source_representation"] = np.nan
 publisher_ids = feeds_df.iloc[:, 1].to_numpy()
 reprs = np.zeros((publisher_ids.size, 512))
@@ -38,14 +38,11 @@ for i, publisher_id in tqdm(enumerate(publisher_ids)):
     feed_bucket_df = pd.read_csv("feed_buckets/{}.csv".format(publisher_id), header=None)
     feed_name = feeds_df[feeds_df.iloc[:,1] == publisher_id].iloc[0]
     feed_titles = feed_bucket_df.iloc[:,0].to_numpy()
-    #if feed_titles.size < 10:
-        #print(feeds_df[feeds_df.iloc[:,1] == publisher_id])
-        #print("Finished computing representation for {}".format(publisher_id))
     feed_repr = feed_representation(feed_titles).numpy()
     reprs[i,:] = feed_repr
 feeds_representation = pd.DataFrame({'publisher':publisher_ids})
 feeds_representation =  pd.concat([feeds_representation, pd.DataFrame(reprs)], axis=1)
-feeds_representation.to_csv('feed_embeddings')
+feeds_representation.to_csv('output/feed_embeddings.csv', header=None)
 
 sim_matrix = np.zeros((publisher_ids.size, publisher_ids.size))
 for i in range(publisher_ids.size):
@@ -56,4 +53,4 @@ for i in range(publisher_ids.size):
         sim_matrix[i,j] = sim
         sim_matrix[j,i] = sim
 
-np.savetxt("sim_matrix.csv", sim_matrix, delimiter=",")
+np.savetxt("output/sim_matrix.csv", sim_matrix, delimiter=",")
