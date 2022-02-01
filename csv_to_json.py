@@ -34,5 +34,5 @@ for i, feed in enumerate(feeds_titles):
 
     top10_dictionary[feed] = [{'source':source[0], 'score':source[1]} for source in sources_ranking[:10]]
 
-with open('output/sim_matrix_top10.json', 'w', encoding='utf-8') as f:
+with open('output/source_similarity_t10.json', 'w', encoding='utf-8') as f:
     json.dump(top10_dictionary, f, ensure_ascii=True, indent=4)

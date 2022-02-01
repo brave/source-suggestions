@@ -8,7 +8,7 @@ import requests
 import time
 import hashlib
 
-def parse_articles_from_feed(articles):
+def parse_articles_from_source(articles):
     duplicate = 0
 
     for i, article in enumerate(articles):
@@ -23,14 +23,14 @@ def parse_articles_from_feed(articles):
         hash_title = hashlib.md5(title.encode()).hexdigest()
 
         if publisher_id not in checklist:
-            with open("feed_buckets/{}.csv".format(publisher_id), "w") as myfile:
+            with open("source_buckets/{}.csv".format(publisher_id), "w") as myfile:
                 myfile.write('"'+'","'.join([title, publisher_name, description, publish_time, category, url, publisher_id, hash_title])+'"\n')
                 checklist[publisher_id] = [hash_title]
-            with open("output/feeds.csv", "a") as myfile:
+            with open("output/sources.csv", "a") as myfile:
                 myfile.write("{},{}\n".format(publisher_name, publisher_id))
         else:
             if hash_title not in checklist[publisher_id]:
-                with open("feed_buckets/{}.csv".format(publisher_id), "a") as myfile:
+                with open("source_buckets/{}.csv".format(publisher_id), "a") as myfile:
                     myfile.write('"'+'","'.join([title, publisher_name, description, publish_time, category, url, publisher_id, hash_title])+'"\n')
                 checklist[publisher_id].append(hash_title)
             else:
@@ -40,17 +40,21 @@ def parse_articles_from_feed(articles):
 
 checklist = {}
 
-if os.path.isfile("output/feeds.csv"):
-    print("Found feeds.csv file, initializing...")
-    publisher_ids = list(pd.read_csv('output/feeds.csv', header=None).iloc[:, 1].to_numpy())
+# on script start, check if sources.csv and source_buckets have already been created
+# this recovers the script state in case of interruption/termination
+if os.path.isfile("output/sources.csv"):
+    print("Found sources.csv file, initializing...")
+    publisher_ids = list(pd.read_csv('output/sources.csv', header=None).iloc[:, 1].to_numpy())
     for publisher_id in publisher_ids:
-        hash_titles = list(pd.read_csv("feed_buckets/{}.csv".format(publisher_id), header=None).iloc[:, -1].to_numpy())
+        hash_titles = list(pd.read_csv("source_buckets/{}.csv".format(publisher_id), header=None).iloc[:, -1].to_numpy())
         checklist[publisher_id] = hash_titles
 
 while True:
     print("Starting new parse...")
     r = requests.get('https://brave-today-cdn.brave.com/brave-today/feed.json')
     articles = r.json()
-    parse_articles_from_feed(articles)
+    # TODO: in case script cannot hold state, PULL feed.csv,feed_buckets from S3
+    parse_articles_from_source(articles)
+    # TODO: PUSH source.csv,source_buckets changes to S3
     print("Finished parsing articles from feed. Next parse in 3h hours.")
     time.sleep(3*60*60)
