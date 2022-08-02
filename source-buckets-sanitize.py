@@ -1,7 +1,6 @@
 import sys
 import os
 import numpy as np
-import scipy
 import pandas as pd
 from pathlib import Path
 from tqdm import tqdm

@@ -1,7 +1,6 @@
 import sys
 import os
 import numpy as np
-import scipy
 import pandas as pd
 from tqdm import tqdm
 import tensorflow as tf
