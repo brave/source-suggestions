@@ -1,1 +1,804 @@
-[{"enabled": false, "publisher_name": "99 Bitcoins", "category": "Crypto", "destination_domains": ["99bitcoins.com"], "site_url": "99bitcoins.com", "feed_url": "https://99bitcoins.com/feed/", "score": 1.19, "publisher_id": "88c2b851612cc53e9de97b2581181786e0ae4ef83d94bf7fc49146b9d1d51457"}, {"enabled": false, "publisher_name": "9to5Mac", "category": "Technology", "destination_domains": ["9to5mac.com"], "site_url": "9to5mac.com", "feed_url": "https://9to5mac.com/feed/", "score": -0.83, "publisher_id": "0da7a01841198f6ae17eb5ab6107f5989b7561eb96d9009d1e10d152bb72db25"}, {"enabled": true, "publisher_name": "ABC News", "category": "Top News", "destination_domains": ["abcnews.go.com"], "site_url": "abcnews.com", "feed_url": "https://abcnews.go.com/abcnews/topstories", "score": 1.49, "publisher_id": "a69b6cff927e7b84afc26a5ec7905d4095b400f383c6d747bcaa21f6539f9589"}, {"enabled": false, "publisher_name": "AFAR Magazine", "category": "Travel", "destination_domains": ["www.afar.com"], "site_url": "afar.com", "feed_url": "https://feeds.feedburner.com/AfarMagazine", "score": -1.45, "publisher_id": "1d8522bc503d7a6f743e6af0412f19c11aedc39bbf2c81a4e809c1aa7b8f4149"}, {"enabled": false, "publisher_name": "Adventure", "category": "Travel", "destination_domains": ["adventure.com"], "site_url": "adventure.com", "feed_url": "https://adventure.com/feed/", "score": 0.63, "publisher_id": "4271ba3ac1dcdda8b4022a89b91dd931d6ce88d3272866229192ef32a0553135"}, {"enabled": false, "publisher_name": "Ain't It Cool", "category": "Entertainment", "destination_domains": ["www.aintitcool.com"], "site_url": "aintitcool.com", "feed_url": "https://www.aintitcool.com/node/feed/", "score": -0.58, "publisher_id": "6044df96ff6760328cdec2dad97e1f2a104f443d804721716790d751638d4da6"}, {"enabled": false, "publisher_name": "Al Jazeera", "category": "Top News", "destination_domains": ["www.aljazeera.com"], "site_url": "aljazeera.com", "feed_url": "https://www.aljazeera.com/xml/rss/all.xml", "score": -1.07, "publisher_id": "fa080031bb9f0725b354d2657f84d5bc3ace72cbd9ead6fe1e34884650fa30c3"}, {"enabled": false, "publisher_name": "Android Central", "category": "Technology", "destination_domains": ["www.androidcentral.com"], "site_url": "androidcentral.com", "feed_url": "https://www.androidcentral.com/feed", "score": 0.48, "publisher_id": "e9a79048fba4a344a0d2e552b32717d1c89bb3852761df271e173c8f883abbf5"}, {"enabled": true, "publisher_name": "Apartment Therapy", "category": "Home", "destination_domains": ["www.apartmenttherapy.com"], "site_url": "apartmenttherapy.com", "feed_url": "https://www.apartmenttherapy.com/main.rss", "score": 11.57, "publisher_id": "b36c30505ff413dffe48a0a77eef3673a54eb61f7d8ddc934cee9fc6d9a98582"}, {"enabled": false, "publisher_name": "Ars Technica", "category": "Science", "destination_domains": ["arstechnica.com"], "site_url": "arstechnica.com", "feed_url": "https://feeds.arstechnica.com/arstechnica/science", "score": 1.61, "publisher_id": "cd2782f9e8a9abdc21f9ec51074b5334e361ea6bde46e60af83b53c07dfe6ec7"}, {"enabled": false, "publisher_name": "Arseblog", "category": "Sports", "destination_domains": ["shows.acast.com"], "site_url": "feeds.feedburner.com/arseblog.com", "feed_url": "https://feeds.feedburner.com/arseblog", "score": -1.13, "publisher_id": "0bafc7899f3b35589c644e5713cb7011d8d1e7327870f589ca3b3e8a06a2b308"}, {"enabled": true, "publisher_name": "Atlas Obscura", "category": "Travel", "destination_domains": ["www.atlasobscura.com"], "site_url": "atlasobscura.com", "feed_url": "https://www.atlasobscura.com/feeds/latest", "score": 6.64, "publisher_id": "1e0b2d406f9855303b3121181c43fc6a3522d196aaf93c006af1b6bfb06253cb"}, {"enabled": true, "publisher_name": "Autoblog", "category": "Cars", "destination_domains": ["www.autoblog.com"], "site_url": "autoblog.com", "feed_url": "https://www.autoblog.com/rss.xml", "score": 10.1, "publisher_id": "52accd3d2b5098bd27652dd66af321ce30e6373897879e917d47ec1334fbfff6"}, {"enabled": false, "publisher_name": "Autocar", "category": "Cars", "destination_domains": ["www.autocar.co.uk"], "site_url": "autocar.co.uk", "feed_url": "https://www.autocar.co.uk/rss/latestnews", "score": -0.18, "publisher_id": "e9ed17d4b78c856c9461c512d8b50dd60970057648802c82c9b792756a5a4ec8"}, {"enabled": false, "publisher_name": "Autosport", "category": "Cars", "destination_domains": ["www.autosport.com"], "site_url": "autosport.com", "feed_url": "https://www.autosport.com/rss/all/news/", "score": 0.5, "publisher_id": "83729ca890b60f4076a46b1bb7c0259f441e725a6903b4b712e126c3b0d7c96c"}, {"enabled": false, "publisher_name": "Axios", "category": "Top News", "destination_domains": ["www.axios.com"], "site_url": "axios.com", "feed_url": "https://api.axios.com/feed/", "score": -1.14, "publisher_id": "f5e8ac854e404b1e48c110f82ecca136fe76dba3cca8768964b2931686caaa33"}, {"enabled": true, "publisher_name": "BBC", "category": "Top News", "destination_domains": ["www.bbc.co.uk"], "site_url": "bbc.co.uk", "feed_url": "https://feeds.bbci.co.uk/news/rss.xml?edition=int", "score": 3.22, "publisher_id": "60bef5cb5f18a08ea4ba2311dd5d73cfa4546f8166016e62573e84351beb5f41"}, {"enabled": false, "publisher_name": "BTCMANAGER", "category": "Crypto", "destination_domains": ["btcmanager.com"], "site_url": "btcmanager.com", "feed_url": "https://btcmanager.com/feed/", "score": -0.16, "publisher_id": "1c6b5c6c32cb1d4a31471530cea16d4a695ecde31bc30413c940467147643e0e"}, {"enabled": false, "publisher_name": "Bad Astronomy", "category": "Science", "destination_domains": ["www.syfy.com"], "site_url": "syfy.com", "feed_url": "https://www.syfy.com/syfy-wire/topic/bad-astronomy/feed", "score": 0.36, "publisher_id": "213e404c5943f7e4593a4adbc347f1c85d54efc2d1e6afaeb2ca7530e396c792"}, {"enabled": false, "publisher_name": "Big Think", "category": "Science", "destination_domains": ["bigthink.com"], "site_url": "bigthink.com", "feed_url": "https://feeds.feedburner.com/bigthink/main", "score": 0.2, "publisher_id": "18f838be536cc5df750990517aa5b62693cac6cea9ad0bebf25f3e8773eca137"}, {"enabled": false, "publisher_name": "Bike EXIF", "category": "Cars", "destination_domains": ["www.bikeexif.com"], "site_url": "bikeexif.com", "feed_url": "https://www.bikeexif.com/feed", "score": 0.21, "publisher_id": "4dc57b3af801f8c11b53a4866a0906025df655ef1041128bd797932543034e0b"}, {"enabled": true, "publisher_name": "Bitcoin Magazine", "category": "Crypto", "destination_domains": ["bitcoinmagazine.com"], "site_url": "bitcoinmagazine.com", "feed_url": "https://feeds.feedburner.com/BitcoinMagazine", "score": 3.09, "publisher_id": "e2acc3dfd997c493c5087cd2f3f91435aec0c1f32c7242880a1aad3a4386dfe1"}, {"enabled": true, "publisher_name": "Bitcoinist", "category": "Crypto", "destination_domains": ["bitcoinist.com"], "site_url": "bitcoinist.com", "feed_url": "https://feeds.feedburner.com/bitcoinist/", "score": 1.96, "publisher_id": "6d303fcee662b56658278aa8e4889d8b1d4fd1b944e85995ec67ded9706cb61d"}, {"enabled": true, "publisher_name": "Bleacher Report", "category": "Sports", "destination_domains": ["bleacherreport.com"], "site_url": "bleacherreport.com", "feed_url": "https://bleacherreport.com/articles/feed", "score": 3.51, "publisher_id": "c263352413bfac1c62fda09767ddc8050821e90c09a6f88ecfc4ac60037d0aa8"}, {"enabled": false, "publisher_name": "Blockgeeks", "category": "Crypto", "destination_domains": ["blockgeeks.com"], "site_url": "blockgeeks.com", "feed_url": "https://blockgeeks.com/feed/", "score": -0.28, "publisher_id": "3e5269a13af6f0a9672a9d4b047c8bbcbd65ee6a4d5bd8858cf1133982856212"}, {"enabled": false, "publisher_name": "BoardingArea", "category": "Travel", "destination_domains": ["www.paddleyourownkanoo.com", "milesforfamily.com", "liveandletsfly.com", "travelupdate.com", "yourmileagemayvary.net", "viewfromthewing.com", "youhavebeenupgraded.boardingarea.com", "onemileatatime.com", "milestomemories.com"], "site_url": "boardingarea.com", "feed_url": "https://boardingarea.com/feed/atom/", "score": 0.17, "publisher_id": "0858282cea50e5b6a48daeb5481777962ecaec4c570f1dcf852f2d43f4a8a982"}, {"enabled": false, "publisher_name": "Bob Vila", "category": "Home", "destination_domains": ["www.bobvila.com"], "site_url": "bobvila.com", "feed_url": "https://www.bobvila.com/rss.xml", "score": 0.61, "publisher_id": "1cdcde894f77ddfcb9c6e68d2e2ac53b2004cf9d9054526e44378191c23b99be"}, {"enabled": false, "publisher_name": "Boing Boing", "category": "Culture", "destination_domains": ["boingboing.net"], "site_url": "boingboing.net", "feed_url": "https://boingboing.net/feed", "score": 2.27, "publisher_id": "6fa1a818e9ef1c7c8856f4b435af1f50cdf0507b1c479c9519013d12eb0255da"}, {"enabled": true, "publisher_name": "Bon App\u00e9tit", "category": "Food", "destination_domains": ["www.bonappetit.com"], "site_url": "bonappetit.com", "feed_url": "https://www.bonappetit.com/feed/rss", "score": 6.8, "publisher_id": "a7ed1da5a8563ada535da811b370145f8e2fa8d0aaf292d2a6b91889c5835bf1"}, {"enabled": false, "publisher_name": "Brain Pickings", "category": "Culture", "destination_domains": ["www.themarginalian.org"], "site_url": "brainpickings.org", "feed_url": "https://feeds.feedburner.com/brainpickings/rss", "score": 1.94, "publisher_id": "d2e2c33dc0bcb4808f5126a207762befa06fed4a54b36603db729f36fde65f46"}, {"enabled": true, "publisher_name": "Brave Blog", "category": "Brave", "destination_domains": ["brave.com"], "site_url": "brave.com", "feed_url": "https://brave.com/blog/index.xml", "score": 1.0, "publisher_id": "28227a306c2ca84c4f2ea3c18836a07946b1692eaaed2f28dcab030221748a7d"}, {"enabled": false, "publisher_name": "Breitbart", "category": "Top News", "destination_domains": ["www.breitbart.com"], "site_url": "breitbart.com", "feed_url": "https://feeds.feedburner.com/breitbart", "score": -0.45, "publisher_id": "53cf84b835485fa3bc3ea995b2eae444320f2f6fb78e2987c70a85af3e6ffb74"}, {"enabled": false, "publisher_name": "Bring A Trailer", "category": "Cars", "destination_domains": ["bringatrailer.com"], "site_url": "bringatrailer.com", "feed_url": "https://bringatrailer.com/feed/", "score": -0.21, "publisher_id": "4cfb5617635c30bf8209a31cf5967d10ca8510d8172cea1dfe78a06482260bf0"}, {"enabled": false, "publisher_name": "Bubby and Bean", "category": "Fashion", "destination_domains": ["www.bubbyandbean.com"], "site_url": "bubbyandbean.com/", "feed_url": "https://feeds.feedburner.com/BubbyAndBean", "score": -0.56, "publisher_id": "fabdf089a3ed26149c7cb9eaa30c16591783638d1829e0dd208c0ccdd836f71d"}, {"enabled": false, "publisher_name": "Business Insider", "category": "Business", "destination_domains": ["www.businessinsider.com", "markets.businessinsider.com"], "site_url": "businessinsider.com", "feed_url": "https://feeds2.feedburner.com/businessinsider", "score": 2.03, "publisher_id": "94894689757967eabb4fce2d04eabe3387efc0da9881b2c31d5fb77201f999e1"}, {"enabled": false, "publisher_name": "CBC", "category": "Top News", "destination_domains": ["www.cbc.ca"], "site_url": "cbc.ca", "feed_url": "https://www.cbc.ca/cmlink/rss-topstories", "score": -1.06, "publisher_id": "655d1927dcd421b63267683fd032e7b9c29cccabe4e7f09d07cfca7685cbfb01"}, {"enabled": true, "publisher_name": "CBSSports", "category": "Sports", "destination_domains": ["www.cbssports.com"], "site_url": "cbssports.com", "feed_url": "https://www.cbssports.com/rss/headlines/", "score": 2.03, "publisher_id": "953349d4b5a07f7072ce9a5fcadae44eb78c5d799b13087aa7b0e5feddb7134f"}, {"enabled": false, "publisher_name": "CNBC", "category": "Business", "destination_domains": ["www.cnbc.com"], "site_url": "cnbc.com", "feed_url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "score": 2.09, "publisher_id": "a25f73735963d64a743405c665d1f9a7808683f83ccc83561395d3e93e064754"}, {"enabled": true, "publisher_name": "CNET News", "category": "Technology", "destination_domains": ["www.cnet.com"], "site_url": "cnet.com", "feed_url": "https://www.cnet.com/rss/news/", "score": 10.1, "publisher_id": "f5e6f52c79a4e09897863116727a6536cddd4090a73bcdb9519fa0bc5b403e68"}, {"enabled": true, "publisher_name": "CNN", "category": "Top News", "destination_domains": ["www.cnn.com"], "site_url": "cnn.com", "feed_url": "https://rss.cnn.com/rss/cnn_topstories.rss", "score": 7.04, "publisher_id": "caae10247386499c8496985ac0ad863ebabe95f760370cdb72c8e7d68d0355ad"}, {"enabled": true, "publisher_name": "Car and Driver", "category": "Cars", "destination_domains": ["www.caranddriver.com"], "site_url": "caranddriver.com", "feed_url": "https://www.caranddriver.com/rss/all.xml/", "score": 4.33, "publisher_id": "302956146961c08ff1e77c1ad0b317ed5522ae530f0f72db87207842a2d76a32"}, {"enabled": false, "publisher_name": "CarBuzz", "category": "Cars", "destination_domains": ["carbuzz.com"], "site_url": "carbuzz.com", "feed_url": "https://carbuzz.com/rss/news", "score": 1.02, "publisher_id": "6f7701cb1e85a03d4cf23369178e27727e898743af0d8c33a207e639669c0f3f"}, {"enabled": false, "publisher_name": "Carscoops", "category": "Cars", "destination_domains": ["www.carscoops.com"], "site_url": "carscoops.com", "feed_url": "https://www.carscoops.com/category/news/feed/", "score": 0.35, "publisher_id": "092ce1fb53d8e8cb5795a5c0a8e5055909bf6e7d2ba3a6460f5be4f544fc90de"}, {"enabled": false, "publisher_name": "CinemaBlend", "category": "Entertainment", "destination_domains": ["www.cinemablend.com"], "site_url": "cinemablend.com", "feed_url": "https://www.cinemablend.com/rss/topic/news/movies", "score": -0.63, "publisher_id": "5ecd1b34f6b7df5c964038d6c965c23b204b66ae8e763e8047dc3cfc67c8f937"}, {"enabled": true, "publisher_name": "Cointelegraph", "category": "Crypto", "destination_domains": ["cointelegraph.com"], "site_url": "cointelegraph.com", "feed_url": "https://cointelegraph.com/rss", "score": 16.96, "publisher_id": "81cc8d838ca275e2cd8253da8ecb31778db3029fb2756cfed8a37f5c1c0ebe18"}, {"enabled": false, "publisher_name": "Complex", "category": "Culture", "destination_domains": ["www.complex.com", "solecollector.com"], "site_url": "complex.com", "feed_url": "https://assets.complex.com/feeds/channels/all.xml", "score": 1.15, "publisher_id": "9048f5a3bea0e63a8a3bbd6b33bd3854af1af32ed5d76fd5093b9a05db154ed4"}, {"enabled": false, "publisher_name": "Contemporist", "category": "Home", "destination_domains": ["www.contemporist.com"], "site_url": "contemporist.com", "feed_url": "https://feeds.feedburner.com/contemporist", "score": 0.63, "publisher_id": "c24386bb9de0be468360c62026bff44136a270cd2448ba7ee77da43ef9b2aec5"}, {"enabled": false, "publisher_name": "Cool Hunting", "category": "Culture", "destination_domains": ["coolhunting.com"], "site_url": "coolhunting.com", "feed_url": "https://coolhunting.com/feed/atom/", "score": 1.15, "publisher_id": "fa6b8945d5c17dd9799efae42e4df9753ea682644ada1c2f0eaf78020e534daa"}, {"enabled": false, "publisher_name": "Cracked", "category": "Fun", "destination_domains": ["www.cracked.com"], "site_url": "cracked.com", "feed_url": "https://feeds.feedburner.com/CrackedRSS", "score": 1.55, "publisher_id": "f7343600dff0c29f25a5281cbbe1767e24b070f6ae95b9fff42e7ea5a16c770e"}, {"enabled": false, "publisher_name": "CryptoPotato", "category": "Crypto", "destination_domains": ["cryptopotato.com"], "site_url": "cryptopotato.com", "feed_url": "https://cryptopotato.com/feed/", "score": -0.3, "publisher_id": "5a8afe446f0ed2ee66f3ba657bb3b5022616e20919e23c50126d85e3322a9b8b"}, {"enabled": false, "publisher_name": "CryptoSlate", "category": "Crypto", "destination_domains": ["cryptoslate.com"], "site_url": "cryptoslate.com", "feed_url": "https://cryptoslate.com/feed/", "score": 0.18, "publisher_id": "a9179182d1e5848c946b512db1e048a637dd496e501effefb4b6f9a6e0144d25"}, {"enabled": false, "publisher_name": "DOR\u00c9", "category": "Fashion", "destination_domains": ["www.wearedore.com"], "site_url": "wearedore.com", "feed_url": "https://www.wearedore.com/feed/", "score": -0.27, "publisher_id": "082ec93076964885c6271ca359ad394e2d5d6b424fbffa3bba7deb9b18c8c74d"}, {"enabled": false, "publisher_name": "Daily Caller", "category": "Top News", "destination_domains": ["dailycaller.com"], "site_url": "dailycaller.com", "feed_url": "https://dailycaller.com/section/us/feed/", "score": -0.89, "publisher_id": "ea961a3b4ee198508755698add3e3753da1547f57b761121bcbd6677871233df"}, {"enabled": true, "publisher_name": "Daily Mail", "category": "Top News", "destination_domains": ["www.dailymail.co.uk"], "site_url": "dailymail.co.uk", "feed_url": "https://www.dailymail.co.uk/home/index.rss", "score": 1.42, "publisher_id": "3a6f9e708706b73d283c4f432a218abfa0f1f2704be5dd364e67f3b39fc85b97"}, {"enabled": false, "publisher_name": "Deadline", "category": "Entertainment", "destination_domains": ["deadline.com"], "site_url": "deadline.com", "feed_url": "https://deadline.com/feed/", "score": 0.9, "publisher_id": "a6faba43a17ae08ce8c2ca2957c887ccea657b1de1e235934cfca149122905f6"}, {"enabled": false, "publisher_name": "Deadspin", "category": "Sports", "destination_domains": ["deadspin.com"], "site_url": "deadspin.com", "feed_url": "https://feeds.feedburner.com/deadspin/", "score": 1.49, "publisher_id": "fdbd21cf1a349229f7f18c11ae3956057cdf4fcae8878666702a538fce42659d"}, {"enabled": true, "publisher_name": "Decrypt", "category": "Crypto", "destination_domains": ["decrypt.co"], "site_url": "decrypt.co", "feed_url": "https://decrypt.co/feed/", "score": 2.23, "publisher_id": "8e2cc8640b06b07396d9c92ee656b43ae1a033d62fb47773b257b3facdb47010"}, {"enabled": false, "publisher_name": "Democracy Now!", "category": "Top News", "destination_domains": ["www.democracynow.org"], "site_url": "democracynow.org", "feed_url": "https://www.democracynow.org/democracynow.rss", "score": -1.39, "publisher_id": "d1b0054165f4d02823fdb00f91cc331da8dae73aabe6babaf241d408b2f0918a"}, {"enabled": false, "publisher_name": "Der Spiegel", "category": "Top News", "destination_domains": ["www.spiegel.de"], "site_url": "spiegel.de", "feed_url": "https://www.spiegel.de/international/index.rss", "score": -1.19, "publisher_id": "727b37fbe28d3a80b223f0fa9497ff3fb5d39117202605d5331475d21541d396"}, {"enabled": true, "publisher_name": "Design Milk", "category": "Home", "destination_domains": ["design-milk.com"], "site_url": "design-milk.com", "feed_url": "https://feeds.feedburner.com/design-milk", "score": 7.52, "publisher_id": "6ddde68869a87ef9f3703e1b55988b178f5c5eaa5ff0b94c7cecbb8dc222b836"}, {"enabled": false, "publisher_name": "Digital Trends", "category": "Technology", "destination_domains": ["www.digitaltrends.com"], "site_url": "digitaltrends.com", "feed_url": "https://www.digitaltrends.com/feed/", "score": 1.31, "publisher_id": "9267d9058a847bcb7d53de0e9ca1aa5946c6ca89c1f0ae2689ddf77cac3f0de9"}, {"enabled": true, "publisher_name": "Dilbert Daily Strip", "category": "Fun", "destination_domains": ["dilbert.com"], "site_url": "dilbert.com", "feed_url": "https://feeds.feedburner.com/DilbertDailyStrip", "score": 2.81, "publisher_id": "ce1f18234bf456be04d70115c4f1b30281b4f07cbf6ab11fa99ceb518c62ca3b"}, {"enabled": true, "publisher_name": "E! Online", "category": "Entertainment", "destination_domains": ["www.eonline.com"], "site_url": "eonline.com", "feed_url": "https://syndication.eonline.com/syndication/feeds/rssfeeds/topstories.xml", "score": 1.39, "publisher_id": "1a0fdb887e74068f2a204d53be27be7a8333fc7a826b20d7846d41b9cf78950a"}, {"enabled": true, "publisher_name": "ESPN", "category": "Sports", "destination_domains": ["www.espn.com"], "site_url": "espn.com", "feed_url": "https://www.espn.com/espn/rss/news", "score": 17.32, "publisher_id": "8bc0466da15a816621f777e304c508598cc9c0df90346760e078b561bae5e4d0"}, {"enabled": false, "publisher_name": "ESPN - Cricket", "category": "Sports", "destination_domains": ["www.espncricinfo.com"], "site_url": "espncricinfo.com", "feed_url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml", "score": 0.93, "publisher_id": "16b2aff22cd52a99206dc0e14543b166f016705486daa8f4b02c271e91dfeb96"}, {"enabled": false, "publisher_name": "ESPN - Football", "category": "Sports", "destination_domains": ["www.espn.com"], "site_url": "espnfc.com", "feed_url": "https://www.espn.com/espn/rss/soccer/news", "score": -0.42, "publisher_id": "a4e4a0d51c1e2291065945516b760f29138aff111292e2a2525e4a51cb9bc25f"}, {"enabled": false, "publisher_name": "ET", "category": "Entertainment", "destination_domains": ["www.etonline.com"], "site_url": "etonline.com", "feed_url": "https://feeds.feedburner.com/ETTopStories", "score": -0.16, "publisher_id": "48729fa8af1bbfb4ae0244e63929a67cea1a98e1c4df985591f7b90fd915cd55"}, {"enabled": true, "publisher_name": "Eater", "category": "Food", "destination_domains": ["www.eater.com", "nymag.com", "austin.eater.com"], "site_url": "eater.com", "feed_url": "https://feeds.feedburner.com/EaterNational", "score": 5.7, "publisher_id": "79df22bd8a8bb35ccca50fee3dbe938ed6b2671b732741be7f5f9d1612daf38e"}, {"enabled": false, "publisher_name": "Edmunds", "category": "Cars", "destination_domains": ["www.edmunds.com"], "site_url": "edmunds.com", "feed_url": "https://www.edmunds.com/feeds/rss/articles.xml", "score": 4.23, "publisher_id": "f127369e712c0a44276da0fd12890338401dda5f0b2ecd5d4852a40fd787eb5d"}, {"enabled": false, "publisher_name": "Electrek", "category": "Cars", "destination_domains": ["electrek.co"], "site_url": "electrek.co", "feed_url": "https://electrek.co/feed/", "score": 0.98, "publisher_id": "5c676ee9116dfc488eb836c0776114dc64b4a0bc9063caa2ce5400002bae8195"}, {"enabled": false, "publisher_name": "Elle", "category": "Fashion", "destination_domains": ["www.elle.com"], "site_url": "elle.com", "feed_url": "https://www.elle.com/rss/fashion.xml/", "score": 1.8, "publisher_id": "728c2be025bbbe5e69f36311d741dc010428aa1437f2ba8921af627262233466"}, {"enabled": true, "publisher_name": "Engadget", "category": "Technology", "destination_domains": ["www.engadget.com"], "site_url": "engadget.com", "feed_url": "https://www.engadget.com/rss-full.xml", "score": 5.34, "publisher_id": "1dd450f0502a013633c156021b77d8f5ce15e274043da100577aafcefb8e9dee"}, {"enabled": false, "publisher_name": "Entrepreneur", "category": "Business", "destination_domains": ["www.entrepreneur.com"], "site_url": "entrepreneur.com", "feed_url": "https://feeds.feedburner.com/entrepreneur/latest", "score": 1.39, "publisher_id": "6fbd2a752ec7318f7cffa60d09ddd85cd2fadde8945179f0e3ec9db74d1deeda"}, {"enabled": false, "publisher_name": "Esquire", "category": "Fashion", "destination_domains": ["www.esquire.com"], "site_url": "esquire.com", "feed_url": "https://www.esquire.com/rss/style.xml/", "score": 2.1, "publisher_id": "1928383b73e3ab7281e3786308970141d83fa7a70dd290897beec2c9cb61a3a6"}, {"enabled": false, "publisher_name": "Euronews", "category": "Top News", "destination_domains": ["www.euronews.com"], "site_url": "euronews.com", "feed_url": "https://feeds.feedburner.com/euronews/en/home/", "score": -1.32, "publisher_id": "15777c81690c1f62c673a9dcfae08d9ca06fb1930b35b048438b62e51b4c1694"}, {"enabled": true, "publisher_name": "FAIL Blog", "category": "Fun", "destination_domains": ["cheezburger.com"], "site_url": "failblog.cheezburger.com", "feed_url": "https://feeds.feedburner.com/failblog", "score": 2.45, "publisher_id": "863ecac49f10c0f9eee78306f7381a319b36792f86069018914caeae4459f0d5"}, {"enabled": false, "publisher_name": "FOX Business", "category": "Business", "destination_domains": ["www.foxbusiness.com"], "site_url": "foxbusiness.com", "feed_url": "https://feeds.foxbusiness.com/foxbusiness/latest", "score": -0.61, "publisher_id": "114343caa84b3fb6a7393178feee136e1b966d9cb64b8e60cdd0377a17d58697"}, {"enabled": true, "publisher_name": "FOX News", "category": "Top News", "destination_domains": ["www.foxnews.com"], "site_url": "foxnews.com", "feed_url": "https://feeds.foxnews.com/foxnews/latest", "score": 2.81, "publisher_id": "2643d6de54103a6afdce2316e9a040c6c6842045a7d3e947938b8f64dcb3254f"}, {"enabled": false, "publisher_name": "FOX Sports", "category": "Sports", "destination_domains": ["www.foxsports.com"], "site_url": "foxsports.com", "feed_url": "https://api.foxsports.com/v1/rss", "score": -0.69, "publisher_id": "d59f3846159cd8e699cb70ca510cda7e5ea0fc679c86996c86f02eb5f08939ea"}, {"enabled": false, "publisher_name": "FanGraphs Baseball", "category": "Sports", "destination_domains": ["blogs.fangraphs.com"], "site_url": "blogs.fangraphs.com", "feed_url": "https://blogs.fangraphs.com/feed/", "score": -0.89, "publisher_id": "65d68fd243f5bca5ef2c360c43702a2d8eb8a58444150b27680932833ac24784"}, {"enabled": false, "publisher_name": "FashionBeans", "category": "Fashion", "destination_domains": ["www.fashionbeans.com"], "site_url": "fashionbeans.com", "feed_url": "https://www.fashionbeans.com/feed/", "score": -0.67, "publisher_id": "a8457076c491126c916f1807f976a443d34104cad40214ad0561ae210ba496e6"}, {"enabled": true, "publisher_name": "Fashionista", "category": "Fashion", "destination_domains": ["fashionista.com"], "site_url": "fashionista.com", "feed_url": "https://feeds.feedburner.com/fashionistacom", "score": 3.03, "publisher_id": "c7c36a0b2f7ac196c028c4304021585bde553381cda5e91cb09abb642e0313e6"}, {"enabled": true, "publisher_name": "Fast Company", "category": "Business", "destination_domains": ["www.fastcompany.com"], "site_url": "fastcompany.com", "feed_url": "https://feeds.feedburner.com/fastcompany/headlines", "score": 3.66, "publisher_id": "ec030c551f849e3540d5bf0349ea43d64e228e01e2b55f0bf843df7e6a2291d9"}, {"enabled": false, "publisher_name": "Film School Rejects", "category": "Entertainment", "destination_domains": ["filmschoolrejects.com"], "site_url": "filmschoolrejects.com", "feed_url": "https://feeds.feedburner.com/FilmSchoolRejects", "score": -0.5, "publisher_id": "02e11bd0aa15d69d03aa7895f5b08bc57f6bee0cf2189282c4c4680b7de7b277"}, {"enabled": false, "publisher_name": "Finance Magnates", "category": "Crypto", "destination_domains": ["www.financemagnates.com"], "site_url": "financemagnates.com", "feed_url": "https://www.financemagnates.com/cryptocurrency/feed/", "score": -0.07, "publisher_id": "78582ea466e5681eded400ef2d6928230b677ff6c55aecd58748a0dea6aa859f"}, {"enabled": false, "publisher_name": "Financial Times", "category": "Top News", "destination_domains": ["www.ft.com"], "site_url": "ft.com", "feed_url": "https://www.ft.com/rss/home/uk", "score": -1.33, "publisher_id": "72b6287bcaa3abdab2cdaaabd72a1be1ae934618fb3365f52a802e0cd6c294c3"}, {"enabled": false, "publisher_name": "Financial Times - Markets", "category": "Business", "destination_domains": ["www.ft.com"], "site_url": "ft.com", "feed_url": "https://www.ft.com/markets?format=rss", "score": -1.66, "publisher_id": "ee707c3d40e34be9b6bfa03834b8a5e9a181ca4482d57725e23d50aa09dc2a15"}, {"enabled": false, "publisher_name": "FirstShowing.net", "category": "Entertainment", "destination_domains": ["www.firstshowing.net"], "site_url": "firstshowing.net", "feed_url": "https://www.firstshowing.net/feed/?full", "score": -0.01, "publisher_id": "5cefe93bf3e01004ef2e31ced2086cecd9479c9c513af1d5102d214455b80c1d"}, {"enabled": false, "publisher_name": "FiveThirtyEight - Science", "category": "Science", "destination_domains": ["fivethirtyeight.com"], "site_url": "fivethirtyeight.com", "feed_url": "https://fivethirtyeight.com/science/feed/", "score": -0.16, "publisher_id": "4e80dda4c2c7215896a4ebd06e5a77d6c50b7b0a6091da561e39e4c7e358d14b"}, {"enabled": false, "publisher_name": "FiveThirtyEight - Sports", "category": "Sports", "destination_domains": ["projects.fivethirtyeight.com", "fivethirtyeight.com"], "site_url": "fivethirtyeight.com", "feed_url": "https://fivethirtyeight.com/sports/feed/", "score": -0.24, "publisher_id": "9d72044fbd7218714a72f0a80f70e10a205f0547cc5ca0ecd2c7963a71e1f712"}, {"enabled": false, "publisher_name": "Flavorwire", "category": "Entertainment", "destination_domains": ["www.flavorwire.com"], "site_url": "flavorwire.com", "feed_url": "https://feeds.feedburner.com/flavorwire-rss", "score": -0.44, "publisher_id": "4dc000c9c7cc30e31f75bf48071500885d55374463a3f2893b439a12a8124deb"}, {"enabled": false, "publisher_name": "FlowingData", "category": "Science", "destination_domains": ["flowingdata.com"], "site_url": "flowingdata.com", "feed_url": "https://flowingdata.com/feed", "score": 0.85, "publisher_id": "81f4798a063174a4a1902c0751d7263fc8325a65cb8f9fc29418c4ad90fb0735"}, {"enabled": false, "publisher_name": "FlyerTalk", "category": "Travel", "destination_domains": ["www.flyertalk.com"], "site_url": "flyertalk.com", "feed_url": "https://www.flyertalk.com/feed", "score": 0.25, "publisher_id": "0b58a25c9b200e730542474c4a94e453602cd49971e9f7318612e958d0638af1"}, {"enabled": false, "publisher_name": "Food52", "category": "Food", "destination_domains": ["food52.com"], "site_url": "food52.com", "feed_url": "https://feeds.feedburner.com/food52-TheAandMBlog", "score": 4.3, "publisher_id": "d402c4c5ad5378ee51464d13d2f4c387723760540365b05ea5c0547105d51ea4"}, {"enabled": true, "publisher_name": "Forbes", "category": "Business", "destination_domains": ["www.forbes.com"], "site_url": "forbes.com", "feed_url": "https://www.forbes.com/real-time/feed/", "score": 3.61, "publisher_id": "12959726cb0a285a7056ea6f57b71754d0080605592394ceb9b21eb0ac86a7e3"}, {"enabled": false, "publisher_name": "Foreign Policy", "category": "Top News", "destination_domains": ["foreignpolicy.com"], "site_url": "foreignpolicy.com", "feed_url": "https://foreignpolicy.com/feed/", "score": -1.4, "publisher_id": "d87c1681464979cceb368972c745ffc03aa774329da75fe33af3f5eacffb8b14"}, {"enabled": false, "publisher_name": "Fortune", "category": "Business", "destination_domains": ["fortune.com"], "site_url": "fortune.com", "feed_url": "https://fortune.com/feed/", "score": -1.45, "publisher_id": "da6c1c8c48dbe94bf82509988026bc6d1b3fb43cedd4b2662673ecfb6800b28e"}, {"enabled": false, "publisher_name": "Freakonomics", "category": "Business", "destination_domains": ["freakonomics.com"], "site_url": "freakonomics.com", "feed_url": "https://freakonomics.com/feed/", "score": -0.24, "publisher_id": "8a383a0e3f1f25c5838c01e1c01ffb1231625792a6aab7d955269c61fbe0ddd9"}, {"enabled": false, "publisher_name": "Frommer's", "category": "Travel", "destination_domains": ["www.frommers.com"], "site_url": "frommers.com", "feed_url": "https://www.frommers.com/feed", "score": -1.31, "publisher_id": "2159588bc37f30cdac7077747a9268ed902245f4fa92c584e717256ea259ed20"}, {"enabled": false, "publisher_name": "Futurism", "category": "Science", "destination_domains": ["futurism.com"], "site_url": "futurism.com", "feed_url": "https://futurism.com/feed", "score": 0.87, "publisher_id": "cf5f895e4422abc1ad4462c105c35d9a006c8a33e7278df9e35287a4d11d28b3"}, {"enabled": false, "publisher_name": "Futurity", "category": "Science", "destination_domains": ["www.futurity.org"], "site_url": "futurity.org", "feed_url": "https://www.futurity.org/feed/", "score": 0.54, "publisher_id": "21fafcb186b2a67b8bb02ebef31841d5edb95700e3fe18a6080ad689bc48e4c0"}, {"enabled": false, "publisher_name": "GQ", "category": "Fashion", "destination_domains": ["www.gq.com"], "site_url": "gq.com", "feed_url": "https://www.gq.com/feed/rss", "score": 2.62, "publisher_id": "d39e46f4c310f128f6dd1806fcd0ecbe4908dfb327025657593fc40ac05a71f1"}, {"enabled": false, "publisher_name": "GSMArena", "category": "Technology", "destination_domains": ["www.gsmarena.com"], "site_url": "gsmarena.com", "feed_url": "https://www.gsmarena.com/rss-news-reviews.php3", "score": 0.77, "publisher_id": "02f8490e833473e7335c8af567c5eee3bc3e6f71e4cac01e0c2b31054af6199c"}, {"enabled": false, "publisher_name": "Gigaom", "category": "Business", "destination_domains": ["gigaom.com"], "site_url": "gigaom.com", "feed_url": "https://gigaom.com/feed/", "score": -1.55, "publisher_id": "4fe9f4f1e075af6880e817a2dd6dbd74f2c26c8bdc762e602fc059165dbf3e27"}, {"enabled": true, "publisher_name": "Gizmodo", "category": "Technology", "destination_domains": ["gizmodo.com"], "site_url": "gizmodo.com", "feed_url": "https://gizmodo.com/rss", "score": 2.65, "publisher_id": "341a14d813456824ea75b022bda9dfdf49312595289fc1ee1aeb8acb26b979bd"}, {"enabled": false, "publisher_name": "Greatist", "category": "Health", "destination_domains": ["greatist.com"], "site_url": "greatist.com", "feed_url": "https://greatist.com/feed", "score": 0.23, "publisher_id": "836ac8e4d641a6d534accc3f0d47323aca5464337df0ed725c2bec5de8aceb9c"}, {"enabled": false, "publisher_name": "Hackaday", "category": "Technology", "destination_domains": ["hackaday.com"], "site_url": "hackaday.com", "feed_url": "https://hackaday.com/blog/feed/", "score": -0.81, "publisher_id": "f0b14a3a449f446fa9a44600929e337d8396b37dd8e4a9fd745973b694feb639"}, {"enabled": false, "publisher_name": "Harvard Business Review", "category": "Business", "destination_domains": ["hbr.org"], "site_url": "hbr.org", "feed_url": "https://feeds.harvardbusiness.org/harvardbusiness/", "score": 1.17, "publisher_id": "a4c234d7e8bfeeaea696d1a2342dc8ae55c73eeff38456d33b6b0e317ff179d6"}, {"enabled": true, "publisher_name": "Healthline", "category": "Health", "destination_domains": ["www.healthline.com"], "site_url": "healthline.com", "feed_url": "https://www.healthline.com/rss/health-news", "score": 12.0, "publisher_id": "7856bbb32f1bf5fc797aa82a5cd7704c024dc53e0044c90ab2f5855f8d66a5f7"}, {"enabled": false, "publisher_name": "Highsnobiety", "category": "Fashion", "destination_domains": ["www.highsnobiety.com"], "site_url": "highsnobiety.com", "feed_url": "https://feeds.feedburner.com/highsnobiety/rss", "score": 1.49, "publisher_id": "3dff6ae828a8f2803b8e695e408ad75a509340f8c3013de418dad4ae14fe6217"}, {"enabled": false, "publisher_name": "Hollywood Life", "category": "Entertainment", "destination_domains": ["hollywoodlife.com"], "site_url": "hollywoodlife.com", "feed_url": "https://hollywoodlife.com/feed/", "score": -0.69, "publisher_id": "0026c2c3f584bec82e63d5ac138de993fad93636811a87878fc2dbbc51e021ed"}, {"enabled": false, "publisher_name": "Homedit", "category": "Home", "destination_domains": ["www.homedit.com"], "site_url": "homedit.com", "feed_url": "https://feeds.feedburner.com/Homedit", "score": -0.19, "publisher_id": "43e38b3d6f673ca267804f3646ef9a440e0aa8220251ac9a0d7ab2cd075a3495"}, {"enabled": false, "publisher_name": "Honestly WTF", "category": "Fashion", "destination_domains": ["honestlywtf.com"], "site_url": "honestlywtf.com", "feed_url": "https://feeds.feedburner.com/honestlywtf", "score": -0.62, "publisher_id": "de0f57d794e3f0cddb9358e2fd5db241c1a88423af339bbfadcfbdee0f0c84b0"}, {"enabled": true, "publisher_name": "Houzz", "category": "Home", "destination_domains": ["www.houzz.com"], "site_url": "houzz.com", "feed_url": "https://www.houzz.com/getGalleries/featured/out-rss", "score": 16.18, "publisher_id": "583e40cd8a7887d228258d7f813756345a8618cd8233e485ad297b8cce047175"}, {"enabled": false, "publisher_name": "How-To Geek", "category": "Technology", "destination_domains": ["www.cloudsavvyit.com", "www.howtogeek.com", "www.reviewgeek.com"], "site_url": "howtogeek.com", "feed_url": "https://feeds.howtogeek.com/HowToGeek", "score": 0.92, "publisher_id": "ec5b2e90cfc520d05bb36b79c2f3f253450d2f195dfe5a6d56277f6f9f50f845"}, {"enabled": false, "publisher_name": "HuffPost", "category": "Top News", "destination_domains": ["www.huffpost.com"], "site_url": "huffingtonpost.com", "feed_url": "https://www.huffpost.com/section/world-news/feed", "score": -1.43, "publisher_id": "c22ab88ab4ad1ead9c20f383b2c9be5cb470e5c10455463cbf9a5d872b7806bb"}, {"enabled": true, "publisher_name": "Hypebeast", "category": "Fashion", "destination_domains": ["hypebeast.com"], "site_url": "hypebeast.com", "feed_url": "https://feeds.feedburner.com/hypebeast/feed", "score": 4.42, "publisher_id": "dbd296e1eee52c80aff0db88c3a6c3e0497ea93e1c60ebb4dfc677cd2243de9a"}, {"enabled": false, "publisher_name": "I Can Has Cheezburger?", "category": "Fun", "destination_domains": ["cheezburger.com"], "site_url": "icanhas.cheezburger.com", "feed_url": "https://feeds.feedburner.com/ICanHasCheezburger", "score": 1.25, "publisher_id": "27f28efc6e5df3c0113118bb226357e683293d56bfd1d34771dbe6f79818284a"}, {"enabled": false, "publisher_name": "IEEE Spectrum", "category": "Technology", "destination_domains": ["spectrum.ieee.org"], "site_url": "spectrum.ieee.org", "feed_url": "https://feeds2.feedburner.com/IeeeSpectrum", "score": -0.87, "publisher_id": "ec6aee5e8af0c2766a44b451bb84856b7dffd74cc272116a6c61aacd304d86a7"}, {"enabled": false, "publisher_name": "IGN Reviews", "category": "Entertainment", "destination_domains": ["www.ign.com"], "site_url": "ign.com", "feed_url": "https://feeds.ign.com/ign/reviews", "score": 0.53, "publisher_id": "e44454cea6a322b9e8627f38759f2fc46ec624c6d5304a75a6b56661c945e670"}, {"enabled": false, "publisher_name": "Inc.com", "category": "Business", "destination_domains": ["www.inc.com"], "site_url": "inc.com", "feed_url": "https://www.inc.com/rss/homepage.xml", "score": 0.72, "publisher_id": "272ababfa91d1de5be92e4297ca8442637f30d01e286b051e8183ee2ab6f525d"}, {"enabled": true, "publisher_name": "IndieWire", "category": "Entertainment", "destination_domains": ["www.indiewire.com"], "site_url": "indiewire.com", "feed_url": "https://www.indiewire.com/feed/", "score": 1.04, "publisher_id": "6b5ec7928d83c2dc328c7fba40e9977a4bd9b470a2dc90b45820e43825f7a7ca"}, {"enabled": false, "publisher_name": "Information is Beautiful", "category": "Science", "destination_domains": ["informationisbeautiful.net"], "site_url": "informationisbeautiful.net", "feed_url": "https://feeds.feedburner.com/InformationIsBeautiful", "score": 1.13, "publisher_id": "5c3e597f84a5990197bd59daffc263580065f7f233750179e68dc2f997f418b8"}, {"enabled": false, "publisher_name": "InsideEVs", "category": "Cars", "destination_domains": ["insideevs.com"], "site_url": "insideevs.com", "feed_url": "https://insideevs.com/rss/articles/all/", "score": 1.0, "publisher_id": "fcfb1f739842bca383fbd7367c60848deba45021f4dd39f112a3f0e7324a987a"}, {"enabled": false, "publisher_name": "Into The Gloss", "category": "Fashion", "destination_domains": ["intothegloss.com"], "site_url": "intothegloss.com/", "feed_url": "https://feeds.feedburner.com/intothegloss/oqoU", "score": 0.02, "publisher_id": "17dbf015dc125ab1376823466cec6e441b5baad3e32539a4697e52e442af0736"}, {"enabled": true, "publisher_name": "Jalopnik", "category": "Cars", "destination_domains": ["jalopnik.com"], "site_url": "jalopnik.com", "feed_url": "https://jalopnik.com/rss", "score": 4.67, "publisher_id": "acedcf6042c882bd151aebe84e68672760c14180281a68699a4f919730cb2027"}, {"enabled": false, "publisher_name": "Juniper Home", "category": "Home", "destination_domains": ["juniperhome.com"], "site_url": "juniperhome.com", "feed_url": "https://juniperhome.com/blog/feed/", "score": 0.06, "publisher_id": "9cd51c539527eb557a806d73e2a09dd6d2fe2096a2bc78ca4cfdef598207fbd0"}, {"enabled": true, "publisher_name": "Kitchn", "category": "Food", "destination_domains": ["www.thekitchn.com"], "site_url": "thekitchn.com", "feed_url": "https://feeds.feedburner.com/apartmenttherapy/thekitchn", "score": 11.09, "publisher_id": "062f17077fcc57aa524e9f538d3aa038320a62c17a32d6ab8ed32805788ddbd2"}, {"enabled": false, "publisher_name": "LA Times", "category": "Top News", "destination_domains": ["www.latimes.com"], "site_url": "latimes.com", "feed_url": "https://www.latimes.com/local/rss2.0.xml", "score": 0.07, "publisher_id": "e006bc328092cad6dde0444e99a4c8ebd13b4fb1a5e443dde77575ee6398d300"}, {"enabled": true, "publisher_name": "Lifehacker", "category": "Technology", "destination_domains": ["lifehacker.com"], "site_url": "lifehacker.com", "feed_url": "https://lifehacker.com/rss", "score": 3.19, "publisher_id": "2e0f8d1ec5f5630d8ace851c78ed2a4a5c1baed589bb36bc9e84003397756be6"}, {"enabled": true, "publisher_name": "Livescience.com", "category": "Science", "destination_domains": ["www.livescience.com"], "site_url": "livescience.com", "feed_url": "https://feeds.feedburner.com/Livesciencecom", "score": 6.11, "publisher_id": "7237b97a9c182a2f27bfb9e4f2e019c763a493eb733a55391d2d85daec02174f"}, {"enabled": true, "publisher_name": "Lonely Planet", "category": "Travel", "destination_domains": ["www.lonelyplanet.com"], "site_url": "lonelyplanet.com", "feed_url": "https://www.lonelyplanet.com/articles/news/feed/atom", "score": 8.91, "publisher_id": "3913e1dca920653e195a86ca9bea6f34100410255f6505acbb1abe51da5f5ee1"}, {"enabled": false, "publisher_name": "MLB Trade Rumors", "category": "Sports", "destination_domains": ["www.mlbtraderumors.com"], "site_url": "mlbtraderumors.com", "feed_url": "https://www.mlbtraderumors.com/feed/atom", "score": -0.85, "publisher_id": "07378d6e875ff973254244dcfc124380768b2dd131f903c248ad3bd325ffc6de"}, {"enabled": false, "publisher_name": "MacRumors", "category": "Technology", "destination_domains": ["www.macrumors.com"], "site_url": "macrumors.com", "feed_url": "https://feeds.macrumors.com/MacRumors-Front", "score": -0.07, "publisher_id": "71102351631683dc9c544f184ac267c0b46e532f12be6edb6873cdcbd90ff8d3"}, {"enabled": false, "publisher_name": "MakeUseOf", "category": "Technology", "destination_domains": ["www.makeuseof.com"], "site_url": "makeuseof.com", "feed_url": "https://feeds.feedburner.com/Makeuseof", "score": -0.76, "publisher_id": "3e31b06795d43bd06f551feb277e6ccc3219c73ee63a49e16b5cc34f991e26e9"}, {"enabled": false, "publisher_name": "Making it Lovely", "category": "Home", "destination_domains": ["makingitlovely.com"], "site_url": "makingitlovely.com", "feed_url": "https://feeds2.feedburner.com/makingitlovely", "score": -0.18, "publisher_id": "dbea868d6ca5829e133f2f428ee3310e3a8f05a302e48a74ca8dfc294306f995"}, {"enabled": false, "publisher_name": "MarketWatch", "category": "Business", "destination_domains": ["www.marketwatch.com"], "site_url": "marketwatch.com", "feed_url": "https://feeds.marketwatch.com/marketwatch/topstories/", "score": 0.88, "publisher_id": "c08818f6a6841ae3fc53af0a1675d2d5fd9ff81acb6da46bdaef9214b89e1646"}, {"enabled": false, "publisher_name": "Mashable", "category": "Technology", "destination_domains": ["mashable.com"], "site_url": "mashable.com", "feed_url": "https://feeds.mashable.com/Mashable", "score": 1.83, "publisher_id": "acfbeb042d35f0491ffcab98186ce477b0cad2f9b0a13bb1407a7539eaf1540f"}, {"enabled": false, "publisher_name": "Matador Network", "category": "Travel", "destination_domains": ["matadornetwork.com"], "site_url": "matadornetwork.com", "feed_url": "https://matadornetwork.com/feed/", "score": 2.07, "publisher_id": "078d8c3072b0a46cc7d157a1deb9b2ed4169d4f0b81e7229a1b53fa78b1f99bd"}, {"enabled": false, "publisher_name": "Mayo Clinic", "category": "Health", "destination_domains": ["www.mayoclinic.org"], "site_url": "mayoclinic.org", "feed_url": "https://www.mayoclinic.org/rss/all-health-information-topics", "score": 3.78, "publisher_id": "a03631fc3f4420a29d29d9378eaa8ebdcdd37ff01d7d2fcd170a0c6282d002f8"}, {"enabled": false, "publisher_name": "MedicineNet", "category": "Health", "destination_domains": ["www.medicinenet.com"], "site_url": "medicinenet.com/script/main/hp.asp", "feed_url": "https://www.medicinenet.com/rss/dailyhealth.xml", "score": 0.09, "publisher_id": "fc319e327c8de12c86c6fe2353a21597bfc8414a3a1c6e80f22960281c3e2cb7"}, {"enabled": false, "publisher_name": "Men's Health", "category": "Health", "destination_domains": ["www.menshealth.com"], "site_url": "menshealth.com", "feed_url": "https://www.menshealth.com/rss/all.xml/", "score": 1.09, "publisher_id": "85fa2e5fb8fdbe64416b0df0ad55951cce7e5a9cda8f2fb30236e0475f0a3b09"}, {"enabled": false, "publisher_name": "Mental Floss", "category": "Culture", "destination_domains": ["www.mentalfloss.com"], "site_url": "mentalfloss.com", "feed_url": "https://www.mentalfloss.com/rss.xml", "score": 0.68, "publisher_id": "577edc502de832395cc75b8394040186b27009ec03be6ec680c2e66991b2ff1e"}, {"enabled": false, "publisher_name": "Million Mile Secrets", "category": "Travel", "destination_domains": ["millionmilesecrets.com"], "site_url": "millionmilesecrets.com", "feed_url": "https://feeds.feedburner.com/MillionMileSecrets", "score": 0.31, "publisher_id": "6ea0c34bb64ba7710d8da8b1c767071034ff9df34557456c4fe15a4dc314f97e"}, {"enabled": false, "publisher_name": "Mind Hacks", "category": "Science", "destination_domains": ["mindhacks.com"], "site_url": "mindhacks.com", "feed_url": "https://mindhacks.com/feed/atom/", "score": -0.06, "publisher_id": "e1e5bf6c7211940733495cace55d45cd70e9ef674c2ede551e6bb43487462645"}, {"enabled": false, "publisher_name": "Mother Jones", "category": "Top News", "destination_domains": ["www.motherjones.com"], "site_url": "motherjones.com", "feed_url": "https://feeds.feedburner.com/motherjones/main", "score": -1.33, "publisher_id": "b6f40625320bf3edda7bb94cec8555b562b26c5c46078480b6647a748eb0c7aa"}, {"enabled": false, "publisher_name": "Motor1", "category": "Cars", "destination_domains": ["www.motor1.com"], "site_url": "motor1.com", "feed_url": "https://www.motor1.com/rss/news/all/", "score": 3.43, "publisher_id": "8691f84e7ed39afe4e7cb1e33f7a682aeb70eed2cf1fde48e6e27cdbcd0053d9"}, {"enabled": false, "publisher_name": "NASA Breaking News", "category": "Science", "destination_domains": ["www.nasa.gov"], "site_url": "nasa.gov/news", "feed_url": "https://www.nasa.gov/rss/dyn/breaking_news.rss", "score": 0.33, "publisher_id": "d25c6c3a6b63b163f419a1f6236d627aabd0dbbd271fcd77462b2c1b83b7968e"}, {"enabled": false, "publisher_name": "NASA Image of the Day", "category": "Science", "destination_domains": ["www.nasa.gov"], "site_url": "nasa.gov", "feed_url": "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss", "score": 1.73, "publisher_id": "88f29aea0fc05fb06a50a1003d0cf7520f37dbc5960e9edcab947bd916fd0c79"}, {"enabled": true, "publisher_name": "NBC News", "category": "Top News", "destination_domains": ["www.nbcnews.com"], "site_url": "nbcnews.com", "feed_url": "https://feeds.nbcnews.com/nbcnews/public/news", "score": 2.22, "publisher_id": "54daac4764df7c092bdfcaa86b81614da6bc289f1297b32946993c1e66028cef"}, {"enabled": true, "publisher_name": "NPR", "category": "Top News", "destination_domains": ["www.npr.org"], "site_url": "npr.org", "feed_url": "https://feeds.npr.org/1001/rss.xml", "score": 1.06, "publisher_id": "04a135552494b3dbf3541c5fbc37af837d67ecc5219340e6b092dfd6820bec7c"}, {"enabled": true, "publisher_name": "Nature", "category": "Science", "destination_domains": ["www.nature.com"], "site_url": "nature.com", "feed_url": "https://feeds.nature.com/nature/rss/current", "score": 4.06, "publisher_id": "f7d3531bbeeae7c8a267f105ff3a6f2fb85b157c1fb9b213d23925f58bc3a81e"}, {"enabled": false, "publisher_name": "Nerd Fitness", "category": "Health", "destination_domains": ["www.nerdfitness.com"], "site_url": "nerdfitness.com", "feed_url": "https://feeds.feedburner.com/NerdFitnessBlog", "score": 0.99, "publisher_id": "53f3c3dab893966b80d226d57c3e978f0a028f8100c776b3071824b11be09d4f"}, {"enabled": false, "publisher_name": "New England Journal of Medicine", "category": "Health", "destination_domains": ["www.nejm.org"], "site_url": "nejm.org", "feed_url": "https://www.nejm.org/action/showFeed?jc=nejm&amp;type=etoc&amp;feed=rss", "score": 0.48, "publisher_id": "d70ac02c4742a0b133e0cde173d4b6fda73127a82da622560f824cbd855a74b9"}, {"enabled": false, "publisher_name": "New Scientist", "category": "Science", "destination_domains": ["www.newscientist.com"], "site_url": "newscientist.com", "feed_url": "https://feeds.newscientist.com/science-news/", "score": 1.71, "publisher_id": "f29da13187fb723c14cc7f644e35d3406284873a47bc6de613a42de823968552"}, {"enabled": true, "publisher_name": "New York Post", "category": "Top News", "destination_domains": ["nypost.com"], "site_url": "nypost.com", "feed_url": "https://nypost.com/news/feed/", "score": 1.39, "publisher_id": "b9fa5e07c0a0216c27d875b0d4fab6834c80f06eb01d93bc12e75987f7fecace"}, {"enabled": false, "publisher_name": "NewsBTC", "category": "Crypto", "destination_domains": ["www.newsbtc.com"], "site_url": "newsbtc.com", "feed_url": "https://www.newsbtc.com/feed/", "score": 1.77, "publisher_id": "32d91f858005943585eb8bd9cb40520f86d92d928b66c2418fa7de24bbc7c8e8"}, {"enabled": false, "publisher_name": "Newsweek", "category": "Top News", "destination_domains": ["www.newsweek.com"], "site_url": "newsweek.com", "feed_url": "https://www.newsweek.com/rss", "score": -0.04, "publisher_id": "d75d65f0f747650ef1ea11adb0029f9d577c629a080b5f60ec80d125b2bf205b"}, {"enabled": false, "publisher_name": "One Mile at a Time", "category": "Travel", "destination_domains": ["onemileatatime.com"], "site_url": "onemileatatime.com", "feed_url": "https://onemileatatime.com/feed/", "score": 2.51, "publisher_id": "ad89245cfe08f403d69c50b38cb63d4b56fac97a112e2b5a0a49eb32267e58ab"}, {"enabled": false, "publisher_name": "Open Culture", "category": "Culture", "destination_domains": ["www.openculture.com"], "site_url": "openculture.com", "feed_url": "https://feeds.feedburner.com/OpenCulture", "score": 0.27, "publisher_id": "3468da00f44d952a4664f721c05601a9fc4a918df83e2720f885ddf19c82bceb"}, {"enabled": false, "publisher_name": "PSFK", "category": "Business", "destination_domains": ["www.psfk.com"], "site_url": "psfk.com", "feed_url": "https://www.psfk.com/feeds/psfk", "score": -1.14, "publisher_id": "01e6ac06155410b3493e08352ef5ac08f5a2668db4ff6a3480dca246402162b0"}, {"enabled": false, "publisher_name": "Paul Tan's Automotive News", "category": "Cars", "destination_domains": ["paultan.org"], "site_url": "paultan.org", "feed_url": "https://paultan.org/feed/", "score": -0.4, "publisher_id": "087b28a3ec7d94de5fbe2821dc83c0e7077564ed615444137a6f98f85f166278"}, {"enabled": false, "publisher_name": "Penny Arcade", "category": "Fun", "destination_domains": ["www.penny-arcade.com"], "site_url": "penny-arcade.com", "feed_url": "https://feeds.penny-arcade.com/pa-mainsite", "score": 1.21, "publisher_id": "18671c9f468b7ed0b641e2c374a77c668eebd7b9c005d36e27325e46373e9797"}, {"enabled": false, "publisher_name": "Phys.org", "category": "Science", "destination_domains": ["phys.org"], "site_url": "phys.org", "feed_url": "https://phys.org/rss-feed/", "score": 0.23, "publisher_id": "b157f7a1fae24ec4fb610b4f386a9d8e99dc025dadf27c4ae46c0ad0740f4480"}, {"enabled": false, "publisher_name": "Pinch of Yum", "category": "Food", "destination_domains": ["pinchofyum.com"], "site_url": "pinchofyum.com", "feed_url": "https://feeds.feedburner.com/pinch-of-yum", "score": 0.48, "publisher_id": "a553a422fee1978623e830c35476ab2aca2ab46cb90bd3041db935a7bfbe4ac7"}, {"enabled": false, "publisher_name": "Politico", "category": "Top News", "destination_domains": ["www.politico.com"], "site_url": "politico.com", "feed_url": "https://rss.politico.com/politics-news.xml", "score": -0.05, "publisher_id": "f877d19b3e2c13c6527a61ea015cccd26db9e365220e2b2aa7eb1bae2a68218c"}, {"enabled": false, "publisher_name": "Poppytalk", "category": "Home", "destination_domains": ["poppytalk.blogspot.com"], "site_url": "poppytalk.com", "feed_url": "https://feeds.feedburner.com/blogspot/ISuVv", "score": 0.11, "publisher_id": "7f872709a8799865cbda5988ac917e1fff1c0beb8d9605e53791c01bcdd13b65"}, {"enabled": true, "publisher_name": "Popsugar", "category": "Fashion", "destination_domains": ["www.popsugar.com"], "site_url": "popsugar.com", "feed_url": "https://www.popsugar.com/feed", "score": 3.36, "publisher_id": "590ddb95c89c05e64b7fd02b35ed63ae2d345977ee77343570b8df2195d21708"}, {"enabled": true, "publisher_name": "Popular Science", "category": "Science", "destination_domains": ["www.popsci.com"], "site_url": "popsci.com", "feed_url": "https://www.popsci.com/feed/", "score": 4.9, "publisher_id": "741b88dd6ee3ad6b4cb70bfbfb96dc5c6c17c0eed69afaa9c4366c9adc7274fc"}, {"enabled": false, "publisher_name": "PostSecret", "category": "Culture", "destination_domains": ["postsecret.blogspot.com"], "site_url": "postsecret.blogspot.com", "feed_url": "https://postsecret.blogspot.com/feeds/posts/default", "score": -0.06, "publisher_id": "40caa8cd6b124a8eadd5626a7a0b8b0ba4a2bb41ae72f0865ea7264434ed4dd9"}, {"enabled": false, "publisher_name": "ProPublica", "category": "Top News", "destination_domains": ["www.propublica.org"], "site_url": "propublica.org", "feed_url": "https://www.propublica.org/feeds/propublica/main", "score": -1.38, "publisher_id": "806a2b78701e45c2e71de35be2f16c207d5c60e58e24c17b701dd4774b7d847b"}, {"enabled": false, "publisher_name": "Put This On", "category": "Fashion", "destination_domains": ["putthison.com"], "site_url": "putthison.com", "feed_url": "https://putthison.com/feed/", "score": -0.84, "publisher_id": "6018cf8ccf515eab101d6424bcc44bdeaa4a57efff1405e29b5c51c9d20e6743"}, {"enabled": false, "publisher_name": "Quartz", "category": "Business", "destination_domains": ["qz.com"], "site_url": "qz.com", "feed_url": "https://cms.qz.com/feed/", "score": -0.86, "publisher_id": "9f55cc2ba43db10baa6f0fc77cdbdc895c7f09099ac83d0d695f79a5314a1f16"}, {"enabled": false, "publisher_name": "RT", "category": "Top News", "destination_domains": ["www.rt.com"], "site_url": "rt.com", "feed_url": "https://www.rt.com/rss/", "score": -0.88, "publisher_id": "4013c31ab9b559f05fa4d977847af3d86f8933ebeddf9ca0341ca0fe298bff0c"}, {"enabled": false, "publisher_name": "RealGM Basketball Wiretap", "category": "Sports", "destination_domains": ["basketball.realgm.com"], "site_url": "basketball.realgm.com/news", "feed_url": "https://basketball.realgm.com/rss/realgm_nba_wiretap.xml", "score": -1.27, "publisher_id": "dae4c5866d72662dab5699f433620239d84c91dd400bf6040d238b34860db425"}, {"enabled": true, "publisher_name": "Refinery29", "category": "Fashion", "destination_domains": ["www.refinery29.com"], "site_url": "refinery29.com", "feed_url": "https://www.refinery29.com/index.xml", "score": 7.95, "publisher_id": "01f3e05b865076c3d4036d3baa3720c7b5e5f43753b337719498cd5203b13a46"}, {"enabled": false, "publisher_name": "Remodelista", "category": "Home", "destination_domains": ["www.remodelista.com"], "site_url": "remodelista.com", "feed_url": "https://www.remodelista.com/feed/", "score": -0.2, "publisher_id": "d2620e9e32a77d30b6f2ceb659211e9d9daa500887599779b15a21e34cd1339b"}, {"enabled": false, "publisher_name": "Rick Steves' Travel Blog", "category": "Travel", "destination_domains": ["blog.ricksteves.com"], "site_url": "blog.ricksteves.com", "feed_url": "https://blog.ricksteves.com/feed/", "score": -1.52, "publisher_id": "7ab2dfbf0f59870d96c493d231f98b569b102a96f93150cd1bacf1f2e05c1424"}, {"enabled": true, "publisher_name": "Rolling Stone", "category": "Entertainment", "destination_domains": ["www.rollingstone.com"], "site_url": "rollingstone.com", "feed_url": "https://www.rollingstone.com/music/feed/", "score": 2.19, "publisher_id": "5ea3a4865a1be412c2148286c01fe97f29d867ee7b5cca88298801b39925e0ff"}, {"enabled": false, "publisher_name": "SBNation.com", "category": "Sports", "destination_domains": ["www.sbnation.com"], "site_url": "sbnation.com", "feed_url": "https://feeds.sbnation.com/rss/current", "score": 0.1, "publisher_id": "cc435d36f4c4be657d4b21e6bef6fc5691fba746a3c3faad418cd12960b1c43c"}, {"enabled": false, "publisher_name": "SELF", "category": "Health", "destination_domains": ["www.self.com"], "site_url": "self.com", "feed_url": "https://www.self.com/feed/rss", "score": 0.32, "publisher_id": "92536218330109ea7b0c6a468811c5afcdf3fef3e2962dc03b22e14538a53399"}, {"enabled": false, "publisher_name": "Salon.com", "category": "Culture", "destination_domains": ["www.salon.com"], "site_url": "salon.com", "feed_url": "https://www.salon.com/feed/", "score": 0.05, "publisher_id": "3e820fe63b42fd9b7648262d72b4e44ff9ff12c4a19a4dfa6f077ad6784eb501"}, {"enabled": false, "publisher_name": "Saturday Morning Breakfast Cereal", "category": "Fun", "destination_domains": ["www.smbc-comics.com"], "site_url": "smbc-comics.com", "feed_url": "https://www.smbc-comics.com/comic/rss", "score": 1.62, "publisher_id": "ceeb90dfad7a328df8c9c1f7d81b4d151e2cbb3fd4e71b428ced4bcf59ae0913"}, {"enabled": false, "publisher_name": "ScienceAlert", "category": "Science", "destination_domains": ["www.sciencealert.com"], "site_url": "sciencealert.com", "feed_url": "https://feeds.feedburner.com/sciencealert-latestnews", "score": 2.85, "publisher_id": "ff7fbb2c5e6e827025e498ce5f3f2eb8411b1e8b9f0e969490d5d783e88ccfcc"}, {"enabled": false, "publisher_name": "ScienceDaily", "category": "Science", "destination_domains": ["www.sciencedaily.com"], "site_url": "sciencedaily.com", "feed_url": "https://www.sciencedaily.com/newsfeed.xml", "score": 1.1, "publisher_id": "0780eb56cd55a65c85b432cc8e564b4d4ec587244095163768583284d13373f3"}, {"enabled": false, "publisher_name": "ScienceMag", "category": "Science", "destination_domains": ["www.science.org"], "site_url": "sciencemag.org", "feed_url": "https://www.science.org/rss/news_current.xml", "score": 3.68, "publisher_id": "e1793a9532f608f62934e448f2485b89aba73c86af13a19f694cde62cfd23094"}, {"enabled": true, "publisher_name": "Scientific American", "category": "Science", "destination_domains": ["www.scientificamerican.com"], "site_url": "scientificamerican.com", "feed_url": "https://rss.sciam.com/ScientificAmerican-Global", "score": 5.31, "publisher_id": "af3adc41200fecbac9f8de17f1d4b164e8e792ec2bfa1791f8f1f9c22ae96467"}, {"enabled": false, "publisher_name": "Secret Flying", "category": "Travel", "destination_domains": ["www.secretflying.com"], "site_url": "secretflying.com", "feed_url": "https://www.secretflying.com/feed/", "score": -1.4, "publisher_id": "ae9b83c35148892041c7a258fe743d922346d668f4daeac13ba1d5910da5a7d7"}, {"enabled": false, "publisher_name": "Seeking Alpha", "category": "Business", "destination_domains": ["seekingalpha.com"], "site_url": "seekingalpha.com", "feed_url": "https://seekingalpha.com/feed.xml", "score": -1.39, "publisher_id": "f1116e0e993b69cc22519a2283a0da807c7b68267de6d22355abadc5aedc7fa3"}, {"enabled": false, "publisher_name": "Serious Eats", "category": "Food", "destination_domains": ["www.seriouseats.com"], "site_url": "seriouseats.com", "feed_url": "https://feeds.seriouseats.com/seriouseatsfeaturesvideos", "score": 5.03, "publisher_id": "a366ee3692701d106df81958e31219234ce6596ef9fce3d157557ec91d844d5c"}, {"enabled": false, "publisher_name": "Shape Magazine", "category": "Health", "destination_domains": ["www.shape.com"], "site_url": "shape.com", "feed_url": "https://www.shape.com/rss.xml", "score": -0.07, "publisher_id": "1748e7bd21152e995f048059d8a15478917e07f401db865043a44c5006c0535b"}, {"enabled": false, "publisher_name": "Simply Recipes", "category": "Food", "destination_domains": ["www.simplyrecipes.com"], "site_url": "simplyrecipes.com", "feed_url": "https://www.simplyrecipes.com/feeds/google-news", "score": 5.37, "publisher_id": "ab70f79cbc63a022a9fe5b9fcdd044c7bced8e6a622d484dcb4e5957a6134ca5"}, {"enabled": false, "publisher_name": "Skift", "category": "Travel", "destination_domains": ["skift.com"], "site_url": "skift.com", "feed_url": "https://skift.com/feed/", "score": 2.5, "publisher_id": "3a34d533cce962ef92d331edae0e98b7b168ea668d8d4d1b87a530189792314d"}, {"enabled": false, "publisher_name": "Sky News", "category": "Top News", "destination_domains": ["news.sky.com"], "site_url": "sky.com", "feed_url": "https://feeds.skynews.com/feeds/rss/world.xml", "score": -1.28, "publisher_id": "e708c1d33bdfaa397da3f3f68681ae2d010f0fd76eaef33bb65f8cf4544a7713"}, {"enabled": false, "publisher_name": "SkySports", "category": "Sports", "destination_domains": ["www.skysports.com"], "site_url": "skysports.com", "feed_url": "https://www.skysports.com/rss/11095", "score": 0.97, "publisher_id": "60c36d6784b3ec0e9e7b2cb51472c9437e3fa4a03306c057d4afe16fbc9caded"}, {"enabled": false, "publisher_name": "SlashFilm", "category": "Entertainment", "destination_domains": ["www.slashfilm.com"], "site_url": "slashfilm.com", "feed_url": "https://feeds.feedburner.com/slashfilm", "score": 0.82, "publisher_id": "8e0390a3a2ff5a9725d7d5fa6cca7e60b4e16623b01d5a641eb172ff432debcc"}, {"enabled": true, "publisher_name": "Slate", "category": "Culture", "destination_domains": ["slate.com"], "site_url": "slate.com", "feed_url": "https://slate.com/feeds/all.rss", "score": 5.56, "publisher_id": "8cae80c68e9e30da25c84191c7295ce9931814032049f692f73a1c3095a9b70f"}, {"enabled": false, "publisher_name": "Small Business Trends", "category": "Business", "destination_domains": ["smallbiztrends.com"], "site_url": "smallbiztrends.com", "feed_url": "https://feeds.feedburner.com/SmallBusinessTrends", "score": -1.36, "publisher_id": "941bc3b703e6ba4818d0fc0b602ff95d00e7c4008db7500d7870fa56ce51ee12"}, {"enabled": false, "publisher_name": "Smithsonian Magazine", "category": "Science", "destination_domains": ["www.smithsonianmag.com"], "site_url": "smithsonianmag.com", "feed_url": "https://feeds.feedburner.com/smithsonianmag/science-nature", "score": 1.25, "publisher_id": "321a76434667abcc83b541b954b168c7f316c15dad53ff1ac6bf9f5e737ac93d"}, {"enabled": false, "publisher_name": "Space.com", "category": "Science", "destination_domains": ["www.space.com"], "site_url": "space.com", "feed_url": "https://www.space.com/feeds/all", "score": 3.91, "publisher_id": "c2edd5eb4423abe382cba6f22ae12facdd16af369efc72723ae933dfd41d97c8"}, {"enabled": false, "publisher_name": "Speedhunters", "category": "Cars", "destination_domains": ["www.speedhunters.com"], "site_url": "speedhunters.com", "feed_url": "https://feeds.feedburner.com/Speedhunters", "score": 0.4, "publisher_id": "410a8e4aa6e5ff28e2729c73600403873d90b9919dd6bc398bbb268266f0cab4"}, {"enabled": true, "publisher_name": "Starts With A Bang!", "category": "Science", "destination_domains": ["medium.com"], "site_url": "medium.com/starts-with-a-bang?source=rss----458a773bccd2---4", "feed_url": "https://medium.com/feed/starts-with-a-bang", "score": 7.69, "publisher_id": "57c999c60db2892e56e69159c0e2fa0205da53d7e772840c44045100541de8b9"}, {"enabled": false, "publisher_name": "Stuck in Customs", "category": "Travel", "destination_domains": ["stuckincustoms.com"], "site_url": "stuckincustoms.com", "feed_url": "https://feeds.feedburner.com/stuckincustoms/EmRA", "score": 2.7, "publisher_id": "460ddac7107444157bac655c42147076ab38ba26b8fc60762c98493269a8c63d"}, {"enabled": false, "publisher_name": "Sydney Morning Herald", "category": "Top News", "destination_domains": ["www.smh.com.au"], "site_url": "smh.com.au", "feed_url": "https://www.smh.com.au/rss/feed.xml", "score": -1.1, "publisher_id": "240012d458e538f9584531adf4b884a1c0068420919be9eaa48249d9e94efaa9"}, {"enabled": true, "publisher_name": "TED Talks", "category": "Culture", "destination_domains": ["www.ted.com"], "site_url": "ted.com", "feed_url": "https://feeds.feedburner.com/tedtalks_video", "score": 6.61, "publisher_id": "ac800b9081b9bf1a188cd0de633201ed6c3f24db07be609e425eeb3ede7782d5"}, {"enabled": true, "publisher_name": "TMZ", "category": "Entertainment", "destination_domains": ["www.tmz.com"], "site_url": "tmz.com", "feed_url": "https://www.tmz.com/rss.xml", "score": 3.7, "publisher_id": "6240c290bff374a27027518cd58a4147772c1aec20b754ef99637a2916f129e9"}, {"enabled": false, "publisher_name": "TVLine", "category": "Entertainment", "destination_domains": ["tvline.com"], "site_url": "tvline.com", "feed_url": "https://tvline.com/feed/", "score": -0.87, "publisher_id": "ed625c11bff031abde411163a4d0c8f121524d1be282de671cca7cc12ad120e0"}, {"enabled": true, "publisher_name": "TechCrunch", "category": "Technology", "destination_domains": ["techcrunch.com"], "site_url": "techcrunch.com", "feed_url": "https://techcrunch.com/feed/", "score": 3.15, "publisher_id": "f84187f7c52ef9b346198263cd46c96b18aca5195c5b403c3e9a155ab3a4d314"}, {"enabled": false, "publisher_name": "TechRadar", "category": "Technology", "destination_domains": ["www.techradar.com"], "site_url": "techradar.com", "feed_url": "https://www.techradar.com/rss", "score": 1.7, "publisher_id": "d923f675aecd1d30a059e5264ef2d8b8aff0aa8f51189cd6ecb1c2f4e552e96b"}, {"enabled": false, "publisher_name": "The A.V. Club", "category": "Entertainment", "destination_domains": ["www.avclub.com"], "site_url": "avclub.com", "feed_url": "https://www.avclub.com/rss", "score": 0.42, "publisher_id": "66c132240d2551b17179147984112b56895452f346779f60294de92b6191a12d"}, {"enabled": true, "publisher_name": "The Art of Manliness", "category": "Fashion", "destination_domains": ["www.artofmanliness.com"], "site_url": "artofmanliness.com", "feed_url": "https://feeds2.feedburner.com/TheArtOfManliness", "score": 5.71, "publisher_id": "cc51fca383012f4b31555bc8bbf4bbb46e935037c029599a0e5df9a478049428"}, {"enabled": false, "publisher_name": "The Athletic", "category": "Sports", "destination_domains": ["theathletic.com"], "site_url": "theathletic.com", "feed_url": "https://theathletic.com/rss-feed/", "score": -1.22, "publisher_id": "44523b3f8e982c52146956b87a8923e4bacf51f4e30c9c8144e24f898beafb3f"}, {"enabled": false, "publisher_name": "The Athletic - NBA", "category": "Sports", "destination_domains": ["theathletic.com"], "site_url": "theathletic.com/nba", "feed_url": "https://theathletic.com/nba/?rss=1", "score": -1.27, "publisher_id": "66bff868a712b3add09a8807470e083893f377c7ac7d65a189cd86eb71d16287"}, {"enabled": true, "publisher_name": "The Atlantic", "category": "Culture", "destination_domains": ["www.theatlantic.com"], "site_url": "theatlantic.com", "feed_url": "https://feeds.feedburner.com/TheAtlantic", "score": 7.11, "publisher_id": "45adc6688f871a7cadf23f6928e10ac6fa93ff0480e70023b9e443889bdbc5f7"}, {"enabled": false, "publisher_name": "The Blaze", "category": "Top News", "destination_domains": ["www.theblaze.com"], "site_url": "theblaze.com", "feed_url": "https://www.theblaze.com/feeds/news.rss", "score": -0.97, "publisher_id": "b23bca1c4ac14c8aa186910036a47936d6756c56d8c814e6a49752a488f2d020"}, {"enabled": false, "publisher_name": "The Boston Globe", "category": "Top News", "destination_domains": ["www.bostonglobe.com"], "site_url": "bostonglobe.com", "feed_url": "https://www.bostonglobe.com/rss/feedly.xml", "score": -1.28, "publisher_id": "b6562fe5115ffc9fd1812542bd0e5044cbe9622b9af171e817589006b06d750d"}, {"enabled": false, "publisher_name": "The Business of Fashion", "category": "Fashion", "destination_domains": ["www.businessoffashion.com"], "site_url": "businessoffashion.com", "feed_url": "https://www.businessoffashion.com/arc/outboundfeeds/rss/?outputType=xml", "score": 0.87, "publisher_id": "ba3408b7af8b1185a4e2737109d84bf79c7c77cdbe9281150e3525c30a5497aa"}, {"enabled": false, "publisher_name": "The Car Connection", "category": "Cars", "destination_domains": ["www.motorauthority.com"], "site_url": "thecarconnection.com", "feed_url": "https://feeds.feedburner.com/MotorAuthority2", "score": -0.43, "publisher_id": "4375c6e7686712603f8231852cbdecc1427f28d4215a09cf75d885027fae45f6"}, {"enabled": false, "publisher_name": "The Christian Science Monitor", "category": "Top News", "destination_domains": ["www.csmonitor.com"], "site_url": "csmonitor.com", "feed_url": "https://rss.csmonitor.com/feeds/top", "score": -1.35, "publisher_id": "39928e5bde2844a607322fc1e64b07add83596056c6df12b306b5464e24ed068"}, {"enabled": false, "publisher_name": "The Daily Beast", "category": "Top News", "destination_domains": ["www.thedailybeast.com"], "site_url": "thedailybeast.com", "feed_url": "https://feeds.feedburner.com/thedailybeast/articles", "score": -0.8, "publisher_id": "95d413efc482a8fade4b2bad9a24d3715a535a7e324843179066849b250d33b8"}, {"enabled": false, "publisher_name": "The Design Files", "category": "Home", "destination_domains": ["thedesignfiles.net"], "site_url": "thedesignfiles.net", "feed_url": "https://thedesignfiles.net/feed/", "score": -0.38, "publisher_id": "2af0d70e2a286f0d35b7d8952ec48042a211e2a200ca2004f8b5a2b88eec219c"}, {"enabled": false, "publisher_name": "The Drive", "category": "Cars", "destination_domains": ["www.thedrive.com"], "site_url": "thedrive.com", "feed_url": "https://api.thedrive.com/feed/?post_type=the_drive_article", "score": 0.44, "publisher_id": "05d06ba3ba5ebdaf9f77c330948bac766338ce71b0797db7a5a5c23789959f42"}, {"enabled": false, "publisher_name": "The Economist", "category": "Business", "destination_domains": ["www.economist.com"], "site_url": "economist.com", "feed_url": "https://www.economist.com/business/rss.xml", "score": 0.7, "publisher_id": "1cd4f51823916b334a3c71c7c83c0d73180848a40c0a8de653301a3b57b5444b"}, {"enabled": false, "publisher_name": "The Flight Deal", "category": "Travel", "destination_domains": ["www.theflightdeal.com"], "site_url": "theflightdeal.com", "feed_url": "https://feeds.feedburner.com/TheFlightDeal", "score": -1.54, "publisher_id": "157bb7de1c9889aa5c7d0288bb0782ed109e12fb33b91397e96118322669e220"}, {"enabled": true, "publisher_name": "The Guardian", "category": "Top News", "destination_domains": ["www.theguardian.com"], "site_url": "theguardian.com", "feed_url": "https://www.theguardian.com/world/rss", "score": 2.31, "publisher_id": "d64709a605cbacc004d98965ab19a65f865631222fc76871fb5e1f98f3156ca9"}, {"enabled": false, "publisher_name": "The Guardian - Travel", "category": "Travel", "destination_domains": ["www.theguardian.com"], "site_url": "theguardian.com/us/travel", "feed_url": "https://www.theguardian.com/us/travel/rss", "score": -1.39, "publisher_id": "31a6012efc29e59b99c407e16db9652447bdb5ca37c59fe276c53fee9b8336a6"}, {"enabled": false, "publisher_name": "The Hill", "category": "Top News", "destination_domains": ["thehill.com"], "site_url": "thehill.com", "feed_url": "https://thehill.com/rss/syndicator/19110", "score": -0.47, "publisher_id": "b6edbaa680edec6977bb6dd43d35eeb9393938e7024a806916e3833ed88fdafa"}, {"enabled": false, "publisher_name": "The Independent", "category": "Top News", "destination_domains": ["www.independent.co.uk"], "site_url": "independent.co.uk", "feed_url": "https://www.independent.co.uk/rss", "score": -0.33, "publisher_id": "c6a4dd67c6339d583de0b62659ef38774c5d0027c497afc7bffc4bb0839f2f09"}, {"enabled": false, "publisher_name": "The Motley Fool", "category": "Business", "destination_domains": ["www.fool.com"], "site_url": "fool.com", "feed_url": "https://www.fool.com/a/feeds/foolwatch?format=rss2&amp;id=foolwatch&amp;apikey=foolwatch-feed", "score": -0.31, "publisher_id": "15d7859e33e90aa480b084affa0d33404b7805fbe1df7a39218e7eab391bcab3"}, {"enabled": false, "publisher_name": "The Nation", "category": "Top News", "destination_domains": ["www.thenation.com"], "site_url": "thenation.com", "feed_url": "https://www.thenation.com/feed/?post_type=article", "score": -1.42, "publisher_id": "11a8461482623e3a23448095d1a41313223e8f3580a7758efa698b34c03ef4dc"}, {"enabled": false, "publisher_name": "The New Republic", "category": "Top News", "destination_domains": ["newrepublic.com"], "site_url": "tnr.com", "feed_url": "https://newrepublic.com/rss.xml", "score": -1.39, "publisher_id": "0d58d347b1ec5b0125b3e6fa4a1a1b716273eb84b7a4440638d02b601f9fe9a1"}, {"enabled": false, "publisher_name": "The New York Review of Books", "category": "Culture", "destination_domains": ["www.nybooks.com"], "site_url": "nybooks.com", "feed_url": "https://feeds.feedburner.com/nybooks", "score": -0.4, "publisher_id": "696886ff7f18b3bac47dadba1be5024ffd5edfc8166483f186792cb6bb9988e2"}, {"enabled": true, "publisher_name": "The New York Times", "category": "Top News", "destination_domains": ["www.nytimes.com"], "site_url": "nytimes.com", "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "score": 5.74, "publisher_id": "9dfe110b0027d7bcbab5be6f42f4512172747474b293449ea25eb5239885c7a2"}, {"enabled": false, "publisher_name": "The New Yorker", "category": "Culture", "destination_domains": ["www.newyorker.com"], "site_url": "newyorker.com", "feed_url": "https://www.newyorker.com/feed/everything", "score": 3.96, "publisher_id": "cf15377bf3d80c03b523e474641efeecf9dce4c9f0397aa4861d2e4a6b997b3b"}, {"enabled": false, "publisher_name": "The Next Web", "category": "Technology", "destination_domains": ["thenextweb.com"], "site_url": "thenextweb.com", "feed_url": "https://feeds2.feedburner.com/thenextweb", "score": -0.54, "publisher_id": "cd2d38f011026e6cfe3bb30c920244805ceeff1f0f6bd1b120f1d2de87f28766"}, {"enabled": false, "publisher_name": "The Oatmeal", "category": "Fun", "destination_domains": ["theoatmeal.com"], "site_url": "theoatmeal.com", "feed_url": "https://theoatmeal.com/feed/rss", "score": 2.39, "publisher_id": "263a1398f21f6ce5e618f4a207aaf767b58c63067c13c95b03d7c3e48fca4300"}, {"enabled": true, "publisher_name": "The Onion", "category": "Fun", "destination_domains": ["www.theonion.com"], "site_url": "theonion.com", "feed_url": "https://www.theonion.com/rss", "score": 2.58, "publisher_id": "613b5a037a84ccea643c3684d89a017e6a9dce2c816fe7516222e2dd747b517b"}, {"enabled": true, "publisher_name": "The Points Guy", "category": "Travel", "destination_domains": ["thepointsguy.com"], "site_url": "thepointsguy.com", "feed_url": "https://feeds.feedburner.com/thepointsguy", "score": 9.94, "publisher_id": "0cdd8ef5bff33760b8a502576a436e1d98e81aa58540056ebbb9bb542597aaa5"}, {"enabled": false, "publisher_name": "The Ringer", "category": "Sports", "destination_domains": ["www.theringer.com"], "site_url": "theringer.com", "feed_url": "https://www.theringer.com/rss/index.xml", "score": -1.07, "publisher_id": "317bad6705fe508ce2feb3b30b75e81d56526f72eee162d10145a2ca20dcd128"}, {"enabled": false, "publisher_name": "The Root", "category": "Culture", "destination_domains": ["www.theroot.com"], "site_url": "theroot.com", "feed_url": "https://www.theroot.com/rss/full", "score": -0.43, "publisher_id": "26159416cbd4c0e71198d2d7d4d2a6eb1b57d6e558b7e3ebdac305ebfe374ce8"}, {"enabled": false, "publisher_name": "The Telegraph", "category": "Top News", "destination_domains": ["www.telegraph.co.uk"], "site_url": "telegraph.co.uk", "feed_url": "https://www.telegraph.co.uk/news/rss.xml", "score": -0.85, "publisher_id": "14cd515602a68bcb5e70d9e1e62f084f5c8d1fd6144dbf60044539a8a27c6316"}, {"enabled": false, "publisher_name": "The Telegraph - Sports", "category": "Sports", "destination_domains": ["www.telegraph.co.uk"], "site_url": "telegraph.co.uk/sport/", "feed_url": "https://www.telegraph.co.uk/sport/rss.xml", "score": 0.05, "publisher_id": "fed38936485584685d2b40e6f2cf9130a4b7b33bf24dc43d5cc8c0f903f59034"}, {"enabled": false, "publisher_name": "The Truth About Cars", "category": "Cars", "destination_domains": ["www.thetruthaboutcars.com"], "site_url": "thetruthaboutcars.com", "feed_url": "https://www.thetruthaboutcars.com/feed/", "score": 1.88, "publisher_id": "36fb51a254bcb7f7c4e591933d87672380bea6de4c07946e8bfb1d61778dc988"}, {"enabled": true, "publisher_name": "The Verge", "category": "Technology", "destination_domains": ["www.theverge.com"], "site_url": "theverge.com", "feed_url": "https://www.theverge.com/rss/full.xml", "score": 5.96, "publisher_id": "371857f703815b52e003f964d47b39764217fa97d87439e1f8f688a5a3db4680"}, {"enabled": false, "publisher_name": "The Washington Times", "category": "Top News", "destination_domains": ["www.washingtontimes.com"], "site_url": "washingtontimes.com", "feed_url": "https://www.washingtontimes.com/rss/headlines/news/", "score": -0.77, "publisher_id": "b1b18d660b716e63dbee65dac0aca446d7fd4ebf8d197937998aa78d785e6dc0"}, {"enabled": false, "publisher_name": "Thought Catalog", "category": "Culture", "destination_domains": ["thoughtcatalog.com"], "site_url": "thoughtcatalog.com", "feed_url": "https://feeds.feedburner.com/ThoughtCatalog", "score": 0.38, "publisher_id": "cd1ff930d51c3e2a5e4426408f453ccea408af5fa6fff94c0408a5d0d14aa56a"}, {"enabled": false, "publisher_name": "Travel Weekly", "category": "Travel", "destination_domains": ["www.travelweekly.com"], "site_url": "travelweekly.com", "feed_url": "https://feeds.feedburner.com/TravelWeeklysTopStories", "score": -1.42, "publisher_id": "90fa8443ae6f8fe30f7bdde4a77462851e157bd690451aafc29ea606c0f406ce"}, {"enabled": false, "publisher_name": "Trendir", "category": "Home", "destination_domains": ["www.trendir.com"], "site_url": "trendir.com", "feed_url": "https://feeds.feedburner.com/trendir/", "score": 0.56, "publisher_id": "c0fbd6869dfeaf14ce7b9962653577108ce69e5709e2328b1e799133ac7181cb"}, {"enabled": true, "publisher_name": "Uncrate", "category": "Fashion", "destination_domains": ["uncrate.com"], "site_url": "uncrate.com", "feed_url": "https://feeds.feedburner.com/uncrate", "score": 3.11, "publisher_id": "158e90b1380cb7e121a8567a3e34da93c6e464be7179579ceff0fc7fdbcfeb0b"}, {"enabled": false, "publisher_name": "Uproxx - Sports", "category": "Sports", "destination_domains": ["uproxx.com"], "site_url": "uproxx.com", "feed_url": "https://feeds.feedburner.com/uproxx/withleather", "score": -1.05, "publisher_id": "f96c8e08df93bdaac00e44deb4ab87e24007be0528840e22d15ced93b7b3c284"}, {"enabled": false, "publisher_name": "Upworthy", "category": "Culture", "destination_domains": ["biztoc.com"], "site_url": "upworthy.com", "feed_url": "https://feeds.feedburner.com/upworthy", "score": -0.11, "publisher_id": "6a4918447a97f4ac32546d1decc8918d77b2671afca33764b7a03789b6d3f012"}, {"enabled": false, "publisher_name": "Us Weekly", "category": "Entertainment", "destination_domains": ["www.usmagazine.com"], "site_url": "usmagazine.com", "feed_url": "https://www.usmagazine.com/category/entertainment/feed/", "score": -0.29, "publisher_id": "607986a26e723df6cdccb980b82ca86fccafa4f5b971bbebf3190395c2e0a3ed"}, {"enabled": true, "publisher_name": "VICE", "category": "Culture", "destination_domains": ["www.vice.com"], "site_url": "vice.com", "feed_url": "https://www.vice.com/en/rss?locale=en_us", "score": 5.53, "publisher_id": "b1d5f458a1126c1a8653b791e2853b44ed3b93e5a0c7bdc2ae4288e5a0e1b1e4"}, {"enabled": false, "publisher_name": "Vanity Fair", "category": "Entertainment", "destination_domains": ["www.vanityfair.com"], "site_url": "vanityfair.com", "feed_url": "https://www.vanityfair.com/feed/rss", "score": 0.08, "publisher_id": "05b6a7b7ac107ec30b5ae856f3d7d38ee70a6140bb1dfd470c9f9be168e21ecb"}, {"enabled": true, "publisher_name": "Variety", "category": "Entertainment", "destination_domains": ["variety.com"], "site_url": "variety.com", "feed_url": "https://feeds.feedburner.com/variety/headlines", "score": 2.14, "publisher_id": "d3e92f1f37d95425baf61778ce34fd1b8ecab247fd14a688b167170385fa5488"}, {"enabled": false, "publisher_name": "VentureBeat", "category": "Technology", "destination_domains": ["venturebeat.com"], "site_url": "venturebeat.com", "feed_url": "https://venturebeat.com/feed/", "score": -0.49, "publisher_id": "1a71342d965cd9f7fc4a06e807a5c67bbf88ec384aa43a86d534db7fcb0cb175"}, {"enabled": false, "publisher_name": "Vogue", "category": "Fashion", "destination_domains": ["www.vogue.com"], "site_url": "vogue.com", "feed_url": "https://www.vogue.com/feed/rss", "score": 1.64, "publisher_id": "319a85ffb3789011d877bd3712663477dd43cd2539819fac35da520d33fb7cd3"}, {"enabled": true, "publisher_name": "Vox", "category": "Culture", "destination_domains": ["www.vox.com"], "site_url": "vox.com", "feed_url": "https://www.vox.com/rss/index.xml", "score": 6.21, "publisher_id": "4aa317de1aa3aa766dda8229ef4c63c28fd49eb16b21948044a8294febc343fd"}, {"enabled": true, "publisher_name": "WSJ", "category": "Top News", "destination_domains": ["www.wsj.com"], "site_url": "wsj.com", "feed_url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml", "score": 0.38, "publisher_id": "4288464f77b21d159a5c90ee1315701313e12cf4a1997b77343c918c0200a81a"}, {"enabled": true, "publisher_name": "WSJ - Markets", "category": "Business", "destination_domains": ["www.wsj.com"], "site_url": "wsj.com", "feed_url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml", "score": 2.49, "publisher_id": "f9f0300092669aadef3f9cd8f0c45f9373c45c9e9fbadb45910ddeefac246571"}, {"enabled": false, "publisher_name": "WWD", "category": "Fashion", "destination_domains": ["wwd.com"], "site_url": "wwd.com", "feed_url": "https://wwd.com/custom-feed/recent-stories/", "score": -0.33, "publisher_id": "49ade70d929d0432d2352529ff152bc111022b3b3d3488d22a2288eef7713f38"}, {"enabled": true, "publisher_name": "Washington Post", "category": "Top News", "destination_domains": ["www.washingtonpost.com"], "site_url": "washingtonpost.com", "feed_url": "https://www.washingtonpost.com/?outputType=rss", "score": 2.3, "publisher_id": "ff300b478e441fc4a93e1a2bbd6a94548a6428e5469c931ba3b4348aa9f09299"}, {"enabled": true, "publisher_name": "WebMD Health", "category": "Health", "destination_domains": ["www.webmd.com"], "site_url": "webmd.com", "feed_url": "https://rssfeeds.webmd.com/rss/rss.aspx?RSSSource=RSS_PUBLIC", "score": 9.47, "publisher_id": "f533b1e7e59c85dd912bbba8560f34b0e186dd102157b4ed4b84e823c268f71f"}, {"enabled": false, "publisher_name": "Well+Good", "category": "Health", "destination_domains": ["www.wellandgood.com"], "site_url": "wellandgood.com", "feed_url": "https://www.wellandgood.com/feed/", "score": 0.2, "publisher_id": "b448ac2079b3c1ba94d8dc1b512dd36548e401a3bbacc7725a096223e2904f8c"}, {"enabled": false, "publisher_name": "Wellness Mama", "category": "Health", "destination_domains": ["wellnessmama.com"], "site_url": "wellnessmama.com", "feed_url": "https://wellnessmama.com/feed/", "score": -0.29, "publisher_id": "1cb2718d8d56fafb663a05d927e0a5e5587367489d5f9d122e26b31c41cae558"}, {"enabled": false, "publisher_name": "Who What Wear", "category": "Fashion", "destination_domains": ["www.whowhatwear.com"], "site_url": "whowhatwear.com", "feed_url": "https://feeds.whowhatwear.com/whowhatwear", "score": 1.92, "publisher_id": "2fec04ea0893c45add8702806e4647b925edb2d5e91dc9eedced8a0b37429283"}, {"enabled": true, "publisher_name": "Wikihow", "category": "Culture", "destination_domains": ["www.wikihow.com"], "site_url": "wikihow.com", "feed_url": "https://www.wikihow.com/feed.rss", "score": 11.09, "publisher_id": "299713516243bc47cdb50f1aef8b7e2eae694b4691f6c186fb0bdf1ab36c6aec"}, {"enabled": false, "publisher_name": "Windows Central", "category": "Technology", "destination_domains": ["www.windowscentral.com"], "site_url": "windowscentral.com", "feed_url": "https://feeds.feedburner.com/wmexperts", "score": -0.59, "publisher_id": "5997b2b0e9e1e136815b88d79c825a4e410e28db9f4eddbdd4cd8a5062e94839"}, {"enabled": true, "publisher_name": "Wired", "category": "Technology", "destination_domains": ["www.wired.com"], "site_url": "wired.com", "feed_url": "https://www.wired.com/feed", "score": 3.55, "publisher_id": "80b564162b808e579238d003221a9ea9389dbd1a87bf1be43aad9e2c590db6f6"}, {"enabled": true, "publisher_name": "Yahoo Finance", "category": "Business", "destination_domains": ["www.barrons.com", "www.marketwatch.com", "www.investors.com", "finance.yahoo.com", "www.investopedia.com"], "site_url": "finance.yahoo.com", "feed_url": "https://finance.yahoo.com/rss/topstories", "score": 6.09, "publisher_id": "60ef442e787785b01e797fc451c43e5cf136293321cce996b729edac9e0d3748"}, {"enabled": true, "publisher_name": "Yahoo! Sports", "category": "Sports", "destination_domains": ["news.yahoo.com"], "site_url": "sports.yahoo.com", "feed_url": "https://news.yahoo.com/rss/sports", "score": 2.15, "publisher_id": "5ba48e1508108adc78b6e7ae926fa9c52f94f04a66cc2277b15f404589eda628"}, {"enabled": false, "publisher_name": "ZDNet", "category": "Technology", "destination_domains": ["www.zdnet.com"], "site_url": "zdnet.com", "feed_url": "https://www.zdnet.com/news/rss.xml", "score": 2.3, "publisher_id": "cbf4e2ebc46c02805b0c461b53b227d8fe564453cce5e34c8a1c115c6466fe02"}, {"enabled": false, "publisher_name": "domino", "category": "Home", "destination_domains": ["www.domino.com"], "site_url": "domino.com", "feed_url": "https://www.domino.com/feed/", "score": -0.33, "publisher_id": "3d00acebee00f438b083c7febff00e29b7286d6cba37cdefc800f16ff4e2f15f"}, {"enabled": false, "publisher_name": "io9", "category": "Entertainment", "destination_domains": ["gizmodo.com"], "site_url": "io9.gizmodo.com", "feed_url": "https://feeds.feedburner.com/io9/", "score": 1.01, "publisher_id": "41ba60e5b7df1137efdf43e45426bb67e172bb10f38dbd3046e4c333f581760a"}, {"enabled": false, "publisher_name": "kottke.org", "category": "Culture", "destination_domains": ["kottke.org"], "site_url": "kottke.org", "feed_url": "https://feeds.kottke.org/main", "score": -0.16, "publisher_id": "e44e7aea7e34bb52c5baf7c5b23ff2e887db242036e797c91e424b25267aba22"}, {"enabled": false, "publisher_name": "mindbodygreen", "category": "Health", "destination_domains": ["www.mindbodygreen.com"], "site_url": "mindbodygreen.com", "feed_url": "https://www.mindbodygreen.com/rss/feed.xml", "score": 0.87, "publisher_id": "f930d64e9313dfb00fca6790d58eee8a2adc123fe369215fac755631e56438b7"}, {"enabled": false, "publisher_name": "sfgirlbybay", "category": "Home", "destination_domains": ["www.sfgirlbybay.com"], "site_url": "sfgirlbybay.com", "feed_url": "https://www.sfgirlbybay.com/feed/", "score": 0.39, "publisher_id": "251b709a1f9d390a9db9dfbd2deedf0389ffed8a7da5be71f41f3371473b5bd8"}]
+{
+    "data": [
+        {
+            "name": 0,
+            "id": "nytimes.com"
+        },
+        {
+            "name": 1,
+            "id": "cnn.com"
+        },
+        {
+            "name": 2,
+            "id": "foxnews.com"
+        },
+        {
+            "name": 3,
+            "id": "washingtonpost.com"
+        },
+        {
+            "name": 4,
+            "id": "theguardian.com"
+        },
+        {
+            "name": 5,
+            "id": "webmd.com"
+        },
+        {
+            "name": 6,
+            "id": "forbes.com"
+        },
+        {
+            "name": 7,
+            "id": "investopedia.com"
+        },
+        {
+            "name": 8,
+            "id": "usnews.com"
+        },
+        {
+            "name": 9,
+            "id": "nypost.com"
+        },
+        {
+            "name": 10,
+            "id": "cnet.com"
+        },
+        {
+            "name": 11,
+            "id": "bbc.com"
+        },
+        {
+            "name": 12,
+            "id": "dailymail.co.uk"
+        },
+        {
+            "name": 13,
+            "id": "businessinsider.com"
+        },
+        {
+            "name": 14,
+            "id": "gamespot.com"
+        },
+        {
+            "name": 15,
+            "id": "screenrant.com"
+        },
+        {
+            "name": 16,
+            "id": "usatoday.com"
+        },
+        {
+            "name": 17,
+            "id": "cbssports.com"
+        },
+        {
+            "name": 18,
+            "id": "gamerant.com"
+        },
+        {
+            "name": 19,
+            "id": "wsj.com"
+        },
+        {
+            "name": 20,
+            "id": "npr.org"
+        },
+        {
+            "name": 21,
+            "id": "pcgamer.com"
+        },
+        {
+            "name": 22,
+            "id": "nbcnews.com"
+        },
+        {
+            "name": 23,
+            "id": "marketwatch.com"
+        },
+        {
+            "name": 24,
+            "id": "techradar.com"
+        },
+        {
+            "name": 25,
+            "id": "thegamer.com"
+        },
+        {
+            "name": 26,
+            "id": "wikihow.com"
+        },
+        {
+            "name": 27,
+            "id": "tomsguide.com"
+        },
+        {
+            "name": 28,
+            "id": "theverge.com"
+        },
+        {
+            "name": 29,
+            "id": "makeuseof.com"
+        },
+        {
+            "name": 30,
+            "id": "cbsnews.com"
+        },
+        {
+            "name": 31,
+            "id": "lifewire.com"
+        },
+        {
+            "name": 32,
+            "id": "howtogeek.com"
+        },
+        {
+            "name": 33,
+            "id": "rollingstone.com"
+        },
+        {
+            "name": 34,
+            "id": "gamesradar.com"
+        },
+        {
+            "name": 35,
+            "id": "digitaltrends.com"
+        },
+        {
+            "name": 36,
+            "id": "variety.com"
+        },
+        {
+            "name": 37,
+            "id": "latimes.com"
+        },
+        {
+            "name": 38,
+            "id": "verywellhealth.com"
+        },
+        {
+            "name": 39,
+            "id": "tomshardware.com"
+        },
+        {
+            "name": 40,
+            "id": "theatlantic.com"
+        },
+        {
+            "name": 41,
+            "id": "thespruce.com"
+        },
+        {
+            "name": 42,
+            "id": "rogerebert.com"
+        },
+        {
+            "name": 43,
+            "id": "fool.com"
+        },
+        {
+            "name": 44,
+            "id": "nature.com"
+        },
+        {
+            "name": 45,
+            "id": "bankrate.com"
+        },
+        {
+            "name": 46,
+            "id": "cbr.com"
+        },
+        {
+            "name": 47,
+            "id": "si.com"
+        },
+        {
+            "name": 48,
+            "id": "newsweek.com"
+        },
+        {
+            "name": 49,
+            "id": "frontiersin.org"
+        },
+        {
+            "name": 50,
+            "id": "caranddriver.com"
+        },
+        {
+            "name": 51,
+            "id": "sportskeeda.com"
+        },
+        {
+            "name": 52,
+            "id": "drugs.com"
+        },
+        {
+            "name": 53,
+            "id": "time.com"
+        },
+        {
+            "name": 54,
+            "id": "independent.co.uk"
+        },
+        {
+            "name": 55,
+            "id": "hollywoodreporter.com"
+        },
+        {
+            "name": 56,
+            "id": "edmunds.com"
+        },
+        {
+            "name": 57,
+            "id": "thespruceeats.com"
+        },
+        {
+            "name": 58,
+            "id": "metacritic.com"
+        },
+        {
+            "name": 59,
+            "id": "techtarget.com"
+        },
+        {
+            "name": 60,
+            "id": "deadline.com"
+        },
+        {
+            "name": 61,
+            "id": "wired.com"
+        },
+        {
+            "name": 62,
+            "id": "vox.com"
+        },
+        {
+            "name": 63,
+            "id": "insider.com"
+        },
+        {
+            "name": 64,
+            "id": "foxsports.com"
+        },
+        {
+            "name": 65,
+            "id": "the-sun.com"
+        },
+        {
+            "name": 66,
+            "id": "dotesports.com"
+        },
+        {
+            "name": 67,
+            "id": "chron.com"
+        },
+        {
+            "name": 68,
+            "id": "windowscentral.com"
+        },
+        {
+            "name": 69,
+            "id": "pcgamesn.com"
+        },
+        {
+            "name": 70,
+            "id": "bleacherreport.com"
+        },
+        {
+            "name": 71,
+            "id": "knowyourmeme.com"
+        },
+        {
+            "name": 72,
+            "id": "collider.com"
+        },
+        {
+            "name": 73,
+            "id": "pagesix.com"
+        },
+        {
+            "name": 74,
+            "id": "foxbusiness.com"
+        },
+        {
+            "name": 75,
+            "id": "thehill.com"
+        },
+        {
+            "name": 76,
+            "id": "usmagazine.com"
+        },
+        {
+            "name": 77,
+            "id": "sfgate.com"
+        },
+        {
+            "name": 78,
+            "id": "buzzfeed.com"
+        },
+        {
+            "name": 79,
+            "id": "newyorker.com"
+        },
+        {
+            "name": 80,
+            "id": "ycombinator.com"
+        },
+        {
+            "name": 81,
+            "id": "alphr.com"
+        },
+        {
+            "name": 82,
+            "id": "eater.com"
+        },
+        {
+            "name": 83,
+            "id": "techcrunch.com"
+        },
+        {
+            "name": 84,
+            "id": "verywellmind.com"
+        },
+        {
+            "name": 85,
+            "id": "tvinsider.com"
+        },
+        {
+            "name": 86,
+            "id": "thebalance.com"
+        },
+        {
+            "name": 87,
+            "id": "goodhousekeeping.com"
+        },
+        {
+            "name": 88,
+            "id": "houzz.com"
+        },
+        {
+            "name": 89,
+            "id": "biography.com"
+        },
+        {
+            "name": 90,
+            "id": "aljazeera.com"
+        },
+        {
+            "name": 91,
+            "id": "thedailybeast.com"
+        },
+        {
+            "name": 92,
+            "id": "tasteofhome.com"
+        },
+        {
+            "name": 93,
+            "id": "livescience.com"
+        },
+        {
+            "name": 94,
+            "id": "rxlist.com"
+        },
+        {
+            "name": 95,
+            "id": "rockpapershotgun.com"
+        },
+        {
+            "name": 96,
+            "id": "macrumors.com"
+        },
+        {
+            "name": 97,
+            "id": "arstechnica.com"
+        },
+        {
+            "name": 98,
+            "id": "politico.com"
+        },
+        {
+            "name": 99,
+            "id": "decider.com"
+        },
+        {
+            "name": 100,
+            "id": "eurogamer.net"
+        },
+        {
+            "name": 101,
+            "id": "looper.com"
+        },
+        {
+            "name": 102,
+            "id": "breitbart.com"
+        },
+        {
+            "name": 103,
+            "id": "parade.com"
+        },
+        {
+            "name": 104,
+            "id": "nbcsports.com"
+        },
+        {
+            "name": 105,
+            "id": "bobvila.com"
+        },
+        {
+            "name": 106,
+            "id": "thewindowsclub.com"
+        },
+        {
+            "name": 107,
+            "id": "medicinenet.com"
+        },
+        {
+            "name": 108,
+            "id": "allmusic.com"
+        },
+        {
+            "name": 109,
+            "id": "citizenfreepress.com"
+        },
+        {
+            "name": 110,
+            "id": "rtings.com"
+        },
+        {
+            "name": 111,
+            "id": "windowsreport.com"
+        },
+        {
+            "name": 112,
+            "id": "psychologytoday.com"
+        },
+        {
+            "name": 113,
+            "id": "androidauthority.com"
+        },
+        {
+            "name": 114,
+            "id": "thepointsguy.com"
+        },
+        {
+            "name": 115,
+            "id": "progameguides.com"
+        },
+        {
+            "name": 116,
+            "id": "sportingnews.com"
+        },
+        {
+            "name": 117,
+            "id": "billboard.com"
+        },
+        {
+            "name": 118,
+            "id": "gardeningknowhow.com"
+        },
+        {
+            "name": 119,
+            "id": "vg247.com"
+        },
+        {
+            "name": 120,
+            "id": "seriouseats.com"
+        },
+        {
+            "name": 121,
+            "id": "indiewire.com"
+        },
+        {
+            "name": 122,
+            "id": "seekingalpha.com"
+        },
+        {
+            "name": 123,
+            "id": "gamertweak.com"
+        },
+        {
+            "name": 124,
+            "id": "theathletic.com"
+        },
+        {
+            "name": 125,
+            "id": "commonsensemedia.org"
+        },
+        {
+            "name": 126,
+            "id": "delish.com"
+        },
+        {
+            "name": 127,
+            "id": "zdnet.com"
+        },
+        {
+            "name": 128,
+            "id": "howstuffworks.com"
+        },
+        {
+            "name": 129,
+            "id": "mashable.com"
+        },
+        {
+            "name": 130,
+            "id": "rawstory.com"
+        },
+        {
+            "name": 131,
+            "id": "smithsonianmag.com"
+        },
+        {
+            "name": 132,
+            "id": "theconversation.com"
+        },
+        {
+            "name": 133,
+            "id": "tmz.com"
+        },
+        {
+            "name": 134,
+            "id": "space.com"
+        },
+        {
+            "name": 135,
+            "id": "inverse.com"
+        },
+        {
+            "name": 136,
+            "id": "gamepur.com"
+        },
+        {
+            "name": 137,
+            "id": "timeout.com"
+        },
+        {
+            "name": 138,
+            "id": "pitchfork.com"
+        },
+        {
+            "name": 139,
+            "id": "vanityfair.com"
+        },
+        {
+            "name": 140,
+            "id": "denofgeek.com"
+        },
+        {
+            "name": 141,
+            "id": "comicbook.com"
+        },
+        {
+            "name": 142,
+            "id": "cosmopolitan.com"
+        },
+        {
+            "name": 143,
+            "id": "thekitchn.com"
+        },
+        {
+            "name": 144,
+            "id": "esquire.com"
+        },
+        {
+            "name": 145,
+            "id": "thegatewaypundit.com"
+        },
+        {
+            "name": 146,
+            "id": "techspot.com"
+        },
+        {
+            "name": 147,
+            "id": "nme.com"
+        },
+        {
+            "name": 148,
+            "id": "menshealth.com"
+        },
+        {
+            "name": 149,
+            "id": "fanbyte.com"
+        },
+        {
+            "name": 150,
+            "id": "familyhandyman.com"
+        },
+        {
+            "name": 151,
+            "id": "theepochtimes.com"
+        },
+        {
+            "name": 152,
+            "id": "cbslocal.com"
+        },
+        {
+            "name": 153,
+            "id": "bustle.com"
+        },
+        {
+            "name": 154,
+            "id": "fortune.com"
+        },
+        {
+            "name": 155,
+            "id": "pcworld.com"
+        },
+        {
+            "name": 156,
+            "id": "engadget.com"
+        },
+        {
+            "name": 157,
+            "id": "rd.com"
+        },
+        {
+            "name": 158,
+            "id": "foodandwine.com"
+        },
+        {
+            "name": 159,
+            "id": "thewrap.com"
+        },
+        {
+            "name": 160,
+            "id": "dailywire.com"
+        },
+        {
+            "name": 161,
+            "id": "pushsquare.com"
+        },
+        {
+            "name": 162,
+            "id": "byrdie.com"
+        },
+        {
+            "name": 163,
+            "id": "imore.com"
+        },
+        {
+            "name": 164,
+            "id": "eonline.com"
+        },
+        {
+            "name": 165,
+            "id": "scientificamerican.com"
+        },
+        {
+            "name": 166,
+            "id": "9to5mac.com"
+        },
+        {
+            "name": 167,
+            "id": "simplyrecipes.com"
+        },
+        {
+            "name": 168,
+            "id": "nintendolife.com"
+        },
+        {
+            "name": 169,
+            "id": "slate.com"
+        },
+        {
+            "name": 170,
+            "id": "appuals.com"
+        },
+        {
+            "name": 171,
+            "id": "hbr.org"
+        },
+        {
+            "name": 172,
+            "id": "verywellfit.com"
+        },
+        {
+            "name": 173,
+            "id": "vice.com"
+        },
+        {
+            "name": 174,
+            "id": "laptopmag.com"
+        },
+        {
+            "name": 175,
+            "id": "gamepressure.com"
+        },
+        {
+            "name": 176,
+            "id": "gfinityesports.com"
+        },
+        {
+            "name": 177,
+            "id": "bonappetit.com"
+        },
+        {
+            "name": 178,
+            "id": "dualshockers.com"
+        },
+        {
+            "name": 179,
+            "id": "apa.org"
+        },
+        {
+            "name": 180,
+            "id": "mdpi.com"
+        },
+        {
+            "name": 181,
+            "id": "countryliving.com"
+        },
+        {
+            "name": 182,
+            "id": "chicagotribune.com"
+        },
+        {
+            "name": 183,
+            "id": "axios.com"
+        },
+        {
+            "name": 184,
+            "id": "thedrive.com"
+        },
+        {
+            "name": 185,
+            "id": "digitalspy.com"
+        },
+        {
+            "name": 186,
+            "id": "radiotimes.com"
+        },
+        {
+            "name": 187,
+            "id": "popsugar.com"
+        },
+        {
+            "name": 188,
+            "id": "xkcd.com"
+        },
+        {
+            "name": 189,
+            "id": "pnas.org"
+        },
+        {
+            "name": 190,
+            "id": "cinemablend.com"
+        },
+        {
+            "name": 191,
+            "id": "food.com"
+        },
+        {
+            "name": 192,
+            "id": "popularmechanics.com"
+        },
+        {
+            "name": 193,
+            "id": "xda-developers.com"
+        },
+        {
+            "name": 194,
+            "id": "cntraveler.com"
+        },
+        {
+            "name": 195,
+            "id": "womenshealthmag.com"
+        },
+        {
+            "name": 196,
+            "id": "scmp.com"
+        },
+        {
+            "name": 197,
+            "id": "exputer.com"
+        },
+        {
+            "name": 198,
+            "id": "tripsavvy.com"
+        },
+        {
+            "name": 199,
+            "id": "androidcentral.com"
+        }
+    ]
+}

@@ -1,13 +1,14 @@
 import sys
 import os
 import numpy as np
-from numpy import genfromtxtx
 import scipy
 import pandas as pd
 from tqdm import tqdm
 import tensorflow as tf
 import tensorflow_hub as hub
 import math
+from pathlib import Path
+import json
 
 # Take centroid of 512-d embeddings
 def source_representation(source):
@@ -30,26 +31,34 @@ print ("module %s loaded" % module_url)
 def embed(input):
     return model(input)
 
-# PULL source.csv and source_buckets/
+# TODO(): PULL source.csv and source_buckets/
 
 print("Started computing similarity matrix...")
-sources_df = pd.read_csv('output/sources.csv', header=None)
+sources_df = pd.read_csv('output/sources.csv')
 sources_df["source_representation"] = np.nan
-publisher_ids = sources_df.iloc[:, 1].to_numpy()
-reprs = np.zeros((publisher_ids.size, 512))
-for i, publisher_id in tqdm(enumerate(publisher_ids)):
-    source_bucket_df = pd.read_csv("source_buckets/{}.csv".format(publisher_id), header=None)
-    source_name = sources_df[sources_df.iloc[:,1] == publisher_id].iloc[0]
-    source_titles = source_bucket_df.iloc[:,0].to_numpy()
+publisher_titles = sources_df.Title.to_numpy()
+reprs = np.zeros((publisher_titles.size, 512))
+for i, publisher_title in tqdm(enumerate(publisher_titles)):
+    publisher_id = publisher_title.lower().replace('-',' ').replace(' ','_')
+    my_file = Path("source_buckets/{}.csv".format(publisher_id))
+    if not my_file.is_file():
+        continue
+    try:
+        source_bucket_df = pd.read_csv("source_buckets/{}.csv".format(publisher_id), header=None)
+    except:
+        print("Error on {} read".format(publisher_id))
+        continue
+    source_name = publisher_title
+    source_titles = [title for title in source_bucket_df.iloc[:,0].to_numpy() if title != None]
     source_repr = source_representation(source_titles).numpy()
     reprs[i,:] = source_repr
-sources_representation = pd.DataFrame({'publisher':publisher_ids})
+sources_representation = pd.DataFrame({'publisher':publisher_titles})
 sources_representation =  pd.concat([sources_representation, pd.DataFrame(reprs)], axis=1)
 sources_representation.to_csv('output/source_embeddings.csv', header=None)
 
-sim_matrix = np.zeros((publisher_ids.size, publisher_ids.size))
-for i in range(publisher_ids.size):
-    for j in range(i+1, publisher_ids.size):
+sim_matrix = np.zeros((publisher_titles.size, publisher_titles.size))
+for i in range(publisher_titles.size):
+    for j in range(i+1, publisher_titles.size):
         repr_i = reprs[i]
         repr_j = reprs[j]
         sim = compute_source_similarity(repr_i, repr_j)
@@ -58,35 +67,24 @@ for i in range(publisher_ids.size):
 
 np.savetxt("output/sim_matrix.csv", sim_matrix, delimiter=",")
 
-feeds = pd.read_csv("output/feeds.csv", header=None)
-feeds_ids = list(feeds.iloc[:,1].to_numpy())
-feeds_titles = list(feeds.iloc[:,0].to_numpy())
+sim_matrix = np.genfromtxt('output/sim_matrix.csv', delimiter=',')
 
-sim_matrix = genfromtxt('output/sim_matrix.csv', delimiter=',')
-
-feed_dictionary = []
-for i, row in feeds.iterrows():
-    feed_dictionary.append({
-        'name':row[0],
-        'id': row[1]
-    })
-
-json_object = {'data':feed_dictionary}
-
-with open('output/sources.json', 'w', encoding='utf-8') as f:
-    json.dump(json_object, f, ensure_ascii=True, indent=4)
+def get_source_id_for_title(title, sources_df):
+    return sources_df[sources_df.Title == title].source_id.to_numpy()[0]
 
 top10_dictionary = {}
-for i, feed in enumerate(feeds_titles):
+for i, feed in enumerate(publisher_titles):
     sources_ranking = []
+    source_id = get_source_id_for_title(feed, sources_df)
+
     for j in range(sim_matrix.shape[0]):
         if i == j:
             continue
-        sources_ranking.append((feeds_titles[j], sim_matrix[i, j]))
+        sources_ranking.append((publisher_titles[j], sim_matrix[i, j]))
 
     sources_ranking.sort(key=lambda x: -x[1])
 
-    top10_dictionary[feed] = [{'source':source[0], 'score':source[1]} for source in sources_ranking[:10]]
+    top10_dictionary[source_id] = [{'source': get_source_id_for_title(source[0], sources_df), 'score':source[1]} for source in sources_ranking[:10]]
 
 with open('output/source_similarity_t10.json', 'w', encoding='utf-8') as f:
     json.dump(top10_dictionary, f, ensure_ascii=True, indent=4)

@@ -1,4 +1,4 @@
-feed_buckets/
+source_buckets/
 playground.ipynb
 .ipynb_checkpoints
 .DS_store
