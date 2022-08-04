@@ -1,4 +1,4 @@
-source_buckets/
+output/articles_history.csv
 playground.ipynb
 .ipynb_checkpoints
 .DS_store
