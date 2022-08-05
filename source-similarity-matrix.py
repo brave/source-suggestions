@@ -1,3 +1,4 @@
+from cmath import nan
 import sys
 import numpy as np
 import pandas as pd
@@ -15,7 +16,7 @@ def get_source_representation_from_text(source):
     for item in source:
         source_repr += embed([item])[0]
     norm_repr = tf.nn.l2_normalize(source_repr/len(source), axis=1)
-    return norm_repr
+    return norm_repr.numpy()
 
 def compute_source_similarity(source1, source2, t='dot'):
     cosine_similarities = np.dot(source1, np.transpose(source2))
@@ -27,7 +28,7 @@ def compute_source_representation_from_articles(articles_df, publisher_id):
     publisher_bucket_df = articles_df[articles_df.publisher_id == publisher_id]
 
     source_titles = [title for title in publisher_bucket_df.title.to_numpy() if title != None]
-    return get_source_representation_from_text(source_titles).numpy()
+    return get_source_representation_from_text(source_titles)
 
 print("Started computing similarity matrix...")
 # TODO(): PULL article_history.csv
@@ -52,6 +53,7 @@ def embed(input):
 
 print("Building sources embeddings...")
 publisher_ids = sources_df.publisher_id.to_numpy()
+print("Publisher ids size: ", publisher_ids.size)
 reprs = np.zeros((publisher_ids.size, 512))
 for i, publisher_id in tqdm(enumerate(publisher_ids)):
     reprs[i,:] = compute_source_representation_from_articles(articles_df, publisher_id)
@@ -77,6 +79,7 @@ def get_source_id_for_title(title, sources_df):
 print("Finished computing similarity matrix. Outputting results...")
 
 publisher_titles = sources_df.publisher_name.to_numpy()
+print("Publisher titles size: ", publisher_titles.size)
 top10_dictionary = {}
 top10_dictionary_human_readable = {}
 for i, feed in enumerate(publisher_titles):
@@ -84,7 +87,7 @@ for i, feed in enumerate(publisher_titles):
     source_id = get_source_id_for_title(feed, sources_df)
 
     for j in range(sim_matrix.shape[0]):
-        if i == j:
+        if i == j or math.isnan(sim_matrix[i,j]):
             continue
         sources_ranking.append((publisher_titles[j], sim_matrix[i, j]))
 
