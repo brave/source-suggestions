@@ -1,5 +1,13 @@
-output/articles_history.csv
+output/
 playground.ipynb
 .ipynb_checkpoints
 .DS_store
-.DS_Store
+/.venv/
+__pycache__/
+/feed
+/feed.json
+/report.json
+/sources.json
+/sources.csv.json
+.pytest_cache/*
+.idea/
