@@ -32,7 +32,7 @@ feed_file = f'{config.FEED_JSON_FILE}.json'
 
 pathlib.Path(config.OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
-if config.NO_DOWNLOAD:
+if not config.NO_DOWNLOAD:
     download_file(feed_file, config.PUB_S3_BUCKET, f"brave-today/{feed_file}")
     download_file(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE, config.PUB_S3_BUCKET,
                   f"source-suggestions/{config.ARTICLE_HISTORY_FILE}")

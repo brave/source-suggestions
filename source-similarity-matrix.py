@@ -40,7 +40,7 @@ def compute_source_representation_from_articles(articles_df, publisher_id):
 
 logger.info("Started computing similarity matrix...")
 
-if config.NO_DOWNLOAD:
+if not config.NO_DOWNLOAD:
     download_file(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE, config.PUB_S3_BUCKET,
                   f"source-suggestions/{config.ARTICLE_HISTORY_FILE}")
 
@@ -48,7 +48,7 @@ pathlib.Path(config.OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
 sources_file = f'{config.SOURCES_JSON_FILE}.json'
 
-if config.NO_DOWNLOAD:
+if not config.NO_DOWNLOAD:
     download_file(sources_file, config.PUB_S3_BUCKET, sources_file)
 
 with open(sources_file) as sources:
