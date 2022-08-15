@@ -4,9 +4,6 @@ import os
 BRAVE_TODAY_CANONICAL_ID = os.getenv('BRAVE_TODAY_CANONICAL_ID', None)
 BRAVE_TODAY_CLOUDFRONT_CANONICAL_ID = os.getenv('BRAVE_TODAY_CLOUDFRONT_CANONICAL_ID', None)
 
-# Set the number of processes to spawn for all multiprocessing tasks.
-CONCURRENCY = max(1, int(os.getenv('CONCURRENCY', os.cpu_count())))
-
 # Set to INFO to see some output during long-running steps.
 LOG_LEVEL = os.getenv('LOG_LEVEL', 'WARNING')
 
@@ -26,4 +23,4 @@ SOURCES_JSON_FILE = os.getenv('SOURCES_JSON_FILE', 'sources.en_US.json')
 FEED_JSON_FILE = os.getenv('FEED_JSON_FILE', 'feed.en_US')
 
 OUTPUT_DIR = os.getenv('OUTPUT_DIR', 'output')
-ARTICLE_HISTORY_FILE = os.getenv('ARTICLE_HISTORY_FILE', "articles_history.csv")
+ARTICLE_HISTORY_FILE = os.getenv('ARTICLE_HISTORY_FILE', "articles_history.en_US.csv")
