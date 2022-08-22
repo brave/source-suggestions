@@ -100,7 +100,7 @@ def get_source_id_for_title(title, sources_df):
 logger.info("Finished computing similarity matrix. Outputting results...")
 
 publisher_titles = sources_df.publisher_name.to_numpy()
-logger.info("Publisher titles size: ", publisher_titles.size)
+logger.info(f"Publisher titles size: {publisher_titles.size}")
 top10_dictionary = {}
 top10_dictionary_human_readable = {}
 for i, feed in enumerate(publisher_titles):
