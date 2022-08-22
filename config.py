@@ -19,7 +19,7 @@ PRIV_S3_BUCKET = os.getenv('PRIV_S3_BUCKET', 'brave-private-cdn-development')
 PUB_S3_BUCKET = os.getenv('PUB_S3_BUCKET', 'brave-today-cdn-development')
 
 
-SOURCES_JSON_FILE = os.getenv('SOURCES_JSON_FILE', 'sources.en_US.json')
+SOURCES_JSON_FILE = os.getenv('SOURCES_JSON_FILE', 'sources.en_US')
 FEED_JSON_FILE = os.getenv('FEED_JSON_FILE', 'feed.en_US')
 
 OUTPUT_DIR = os.getenv('OUTPUT_DIR', 'output')
