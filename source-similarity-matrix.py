@@ -63,7 +63,7 @@ articles_df.columns = ['title', 'description', 'timestamp', 'publisher_id']
 logger.info("Loading Universal Sentence Encoder...")
 module_url = "https://tfhub.dev/google/universal-sentence-encoder/4"  # @param ["https://tfhub.dev/google/universal-sentence-encoder/4", "https://tfhub.dev/google/universal-sentence-encoder-large/5"]
 model = hub.load(module_url)
-logger.info("USE (%s) loaded" % module_url)
+logger.info(f"USE ({module_url}) loaded")
 
 
 def embed(input):
@@ -72,7 +72,7 @@ def embed(input):
 
 logger.info("Building sources embeddings...")
 publisher_ids = sources_df.publisher_id.to_numpy()
-logger.info("Publisher ids size: ", publisher_ids.size)
+logger.info(f"Publisher ids size: {publisher_ids.size}")
 reprs = np.zeros((publisher_ids.size, 512))
 for i, publisher_id in tqdm(enumerate(publisher_ids)):
     reprs[i, :] = compute_source_representation_from_articles(articles_df, publisher_id)
