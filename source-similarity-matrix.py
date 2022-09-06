@@ -79,7 +79,7 @@ for i, publisher_id in tqdm(enumerate(publisher_ids)):
 
 sources_representation = pd.DataFrame({'publisher_id': publisher_ids})
 sources_representation = pd.concat([sources_representation, pd.DataFrame(reprs)], axis=1)
-sources_representation.to_csv('output/source_embeddings.csv', header=None)
+sources_representation.to_csv(f'output/{config.SOURCE_EMBEDDINGS}.csv', header=None)
 
 logger.info("Finished building source embeddings.")
 
@@ -119,20 +119,20 @@ for i, feed in enumerate(publisher_titles):
     top10_dictionary_human_readable[feed] = [{'source': source[0], 'score': source[1]} for source in
                                              sources_ranking[:10]]
 
-with open('output/source_similarity_t10.json', 'w', encoding='utf-8') as f:
+with open(f'output/{config.SOURCE_SIMILARITY_T10}.json', 'w', encoding='utf-8') as f:
     json.dump(top10_dictionary, f, ensure_ascii=True, indent=4)
 
-with open('output/source_similarity_t10_hr.json', 'w', encoding='utf-8') as f:
+with open(f'output/{config.SOURCE_SIMILARITY_T10_HR}.json', 'w', encoding='utf-8') as f:
     json.dump(top10_dictionary_human_readable, f, ensure_ascii=True, indent=4)
 
 logger.info("Script has finished running.")
 
 if not config.NO_UPLOAD:
-    upload_file(config.OUTPUT_DIR + '/source_similarity_t10.json', config.PUB_S3_BUCKET,
-                f"source-suggestions/source_similarity_t10.json")
+    upload_file(config.OUTPUT_DIR + f'/{config.SOURCE_SIMILARITY_T10}.json', config.PUB_S3_BUCKET,
+                f"source-suggestions/{config.SOURCE_SIMILARITY_T10}.json")
 
-    upload_file(config.OUTPUT_DIR + '/source_similarity_t10_hr.json', config.PUB_S3_BUCKET,
-                f"source-suggestions/source_similarity_t10_hr.json")
+    upload_file(config.OUTPUT_DIR + f'/{config.SOURCE_SIMILARITY_T10_HR}.json', config.PUB_S3_BUCKET,
+                f"source-suggestions/{config.SOURCE_SIMILARITY_T10_HR}.json")
 
-    upload_file(config.OUTPUT_DIR + '/source_embeddings.csv', config.PUB_S3_BUCKET,
-                f"source-suggestions/source_embeddings.csv")
+    upload_file(config.OUTPUT_DIR + f'/{config.SOURCE_EMBEDDINGS}.csv', config.PUB_S3_BUCKET,
+                f"source-suggestions/{config.SOURCE_EMBEDDINGS}.csv")
