@@ -128,11 +128,11 @@ with open('output/source_similarity_t10_hr.json', 'w', encoding='utf-8') as f:
 logger.info("Script has finished running.")
 
 if not config.NO_UPLOAD:
-    upload_file(config.OUTPUT_DIR + 'source_similarity_t10.json', config.PUB_S3_BUCKET,
+    upload_file(config.OUTPUT_DIR + '/source_similarity_t10.json', config.PUB_S3_BUCKET,
                 f"source-suggestions/source_similarity_t10.json")
 
-    upload_file(config.OUTPUT_DIR + 'source_similarity_t10_hr.json', config.PUB_S3_BUCKET,
+    upload_file(config.OUTPUT_DIR + '/source_similarity_t10_hr.json', config.PUB_S3_BUCKET,
                 f"source-suggestions/source_similarity_t10_hr.json")
 
-    upload_file(config.OUTPUT_DIR + 'source_embeddings.csv', config.PUB_S3_BUCKET,
+    upload_file(config.OUTPUT_DIR + '/source_embeddings.csv', config.PUB_S3_BUCKET,
                 f"source-suggestions/source_embeddings.csv")
