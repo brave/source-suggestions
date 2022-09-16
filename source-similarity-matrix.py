@@ -16,11 +16,14 @@ logger = get_logger()
 
 
 # Take centroid of 512-d embeddings
-def get_source_representation_from_text(source):
+def get_source_representation_from_titles(titles):
     source_repr = np.zeros((1, 512))
-    for item in source:
-        source_repr += embed([item])[0]
-    norm_repr = tf.nn.l2_normalize(source_repr / len(source), axis=1)
+    if len(titles) < config.MINIMUM_ARTICLE_HISTORY_SIZE:
+        return source_repr
+
+    for title in titles:
+        source_repr += embed([title])[0]
+    norm_repr = tf.nn.l2_normalize(source_repr / len(titles), axis=1)
     return norm_repr.numpy()
 
 
@@ -35,7 +38,7 @@ def compute_source_representation_from_articles(articles_df, publisher_id):
     publisher_bucket_df = articles_df[articles_df.publisher_id == publisher_id]
 
     source_titles = [title for title in publisher_bucket_df.title.to_numpy() if title is not None]
-    return get_source_representation_from_text(source_titles)
+    return get_source_representation_from_titles(source_titles)
 
 
 logger.info("Started computing similarity matrix...")
@@ -108,7 +111,7 @@ for i, feed in enumerate(publisher_titles):
     source_id = get_source_id_for_title(feed, sources_df)
 
     for j in range(sim_matrix.shape[0]):
-        if i == j or math.isnan(sim_matrix[i, j]):
+        if i == j or math.isnan(sim_matrix[i, j]) or sim_matrix[i,j] == 0:
             continue
         sources_ranking.append((publisher_titles[j], sim_matrix[i, j]))
 
