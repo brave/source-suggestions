@@ -21,6 +21,8 @@ FEED_JSON_FILE = os.getenv('FEED_JSON_FILE', f'feed.{LANG_REGION}')
 OUTPUT_DIR = os.getenv('OUTPUT_DIR', 'output')
 
 ARTICLE_HISTORY_FILE = os.getenv('ARTICLE_HISTORY_FILE', f"articles_history.{LANG_REGION}.csv")
+# Don't compute the embedding for a source that has less than 30 collected articles
+MINIMUM_ARTICLE_HISTORY_SIZE = os.getenv('MINIMUM_ARTICLE_HISTORY_SIZE', 30)
 SOURCE_SIMILARITY_T10 = os.getenv('SOURCE_SIMILARITY_T10', f"source_similarity_t10.{LANG_REGION}")
 SOURCE_SIMILARITY_T10_HR = os.getenv('SOURCE_SIMILARITY_T10_HR', f"source_similarity_t10_hr.{LANG_REGION}")
 
