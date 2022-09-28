@@ -14,6 +14,7 @@ BRAVE_TODAY_CANONICAL_ID = os.getenv('BRAVE_TODAY_CANONICAL_ID', None)
 BRAVE_TODAY_CLOUDFRONT_CANONICAL_ID = os.getenv('BRAVE_TODAY_CLOUDFRONT_CANONICAL_ID', None)
 
 LANG_REGION = os.getenv('LANG_REGION', 'en_US')
+TFHUB_MODEL_URL = os.getenv('TFHUB_MODEL_URL', 'https://tfhub.dev/google/universal-sentence-encoder/4')
 
 SOURCES_JSON_FILE = os.getenv('SOURCES_JSON_FILE', f'sources.{LANG_REGION}')
 FEED_JSON_FILE = os.getenv('FEED_JSON_FILE', f'feed.{LANG_REGION}')

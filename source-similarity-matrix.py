@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 import tensorflow_hub as hub
+import tensorflow_text
 from structlog import get_logger
 from tqdm import tqdm
 
@@ -64,7 +65,7 @@ articles_df = pd.read_csv(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE, heade
 articles_df.columns = ['title', 'description', 'timestamp', 'publisher_id']
 
 logger.info("Loading Universal Sentence Encoder...")
-module_url = "https://tfhub.dev/google/universal-sentence-encoder/4"  # @param ["https://tfhub.dev/google/universal-sentence-encoder/4", "https://tfhub.dev/google/universal-sentence-encoder-large/5"]
+module_url = config.TFHUB_MODEL_URL
 model = hub.load(module_url)
 logger.info(f"USE ({module_url}) loaded")
 
