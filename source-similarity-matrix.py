@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 import tensorflow_hub as hub
+import tensorflow_text
 from structlog import get_logger
 from tqdm import tqdm
 
