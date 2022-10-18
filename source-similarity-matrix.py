@@ -125,7 +125,7 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
     with open(f'output/{config.SOURCE_SIMILARITY_T10.format(LANG_REGION=lang_region)}.json', 'w', encoding='utf-8') as f:
         json.dump(top10_dictionary, f, ensure_ascii=True, indent=4)
 
-    with open(f'output/{config.SOURCE_SIMILARITY_T10_HR}.json', 'w', encoding='utf-8') as f:
+    with open(f'output/{config.SOURCE_SIMILARITY_T10_HR.format(LANG_REGION=lang_region)}.json', 'w', encoding='utf-8') as f:
         json.dump(top10_dictionary_human_readable, f, ensure_ascii=True, indent=4)
 
     logger.info("Script has finished running.")
