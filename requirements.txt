@@ -3,10 +3,10 @@ numpy==1.22.3
 pandas==1.4.2
 requests==2.27.1
 scipy==1.7.3
-tensorflow-macos==2.7.0
+tensorflow==2.7.0
 tensorflow_text==2.5.0
 tensorflow_hub==0.12.0
 tqdm==4.62.3
-boto3==1.18.7
-botocore==1.21.7
+boto3==1.24.81
+botocore==1.27.81
 structlog==22.1.0
