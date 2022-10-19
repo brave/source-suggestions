@@ -51,7 +51,7 @@ def get_source_id_for_title(title, sources_df):
 
 
 for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
-    logger.info(f"Started computing similarity matrix {lang_region}")
+    logger.info(f"Started computing similarity matrix for {lang_region} using {model_url}")
 
     if not config.NO_DOWNLOAD:
         download_file(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region),
