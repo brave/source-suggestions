@@ -13,17 +13,24 @@ PUB_S3_BUCKET = os.getenv('PUB_S3_BUCKET', 'brave-today-cdn-development')
 BRAVE_TODAY_CANONICAL_ID = os.getenv('BRAVE_TODAY_CANONICAL_ID', None)
 BRAVE_TODAY_CLOUDFRONT_CANONICAL_ID = os.getenv('BRAVE_TODAY_CLOUDFRONT_CANONICAL_ID', None)
 
-LANG_REGION = os.getenv('LANG_REGION', 'en_US')
+LANG_REGION_MODEL_MAP = os.getenv('LANG_REGION_MODEL_MAP', [
+    ('en_US', "https://tfhub.dev/google/universal-sentence-encoder/4"),
+    ('en_CA', "https://tfhub.dev/google/universal-sentence-encoder/4"),
+    ('es_ES', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
+    ('es_MX', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
+    ('pt_BR', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
+    ('ja_JP', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
+])
 
-SOURCES_JSON_FILE = os.getenv('SOURCES_JSON_FILE', f'sources.{LANG_REGION}')
-FEED_JSON_FILE = os.getenv('FEED_JSON_FILE', f'feed.{LANG_REGION}')
+SOURCES_JSON_FILE = os.getenv('SOURCES_JSON_FILE', 'sources.{LANG_REGION}')
+FEED_JSON_FILE = os.getenv('FEED_JSON_FILE', 'feed.{LANG_REGION}')
 
 OUTPUT_DIR = os.getenv('OUTPUT_DIR', 'output')
 
-ARTICLE_HISTORY_FILE = os.getenv('ARTICLE_HISTORY_FILE', f"articles_history.{LANG_REGION}.csv")
+ARTICLE_HISTORY_FILE = os.getenv('ARTICLE_HISTORY_FILE', "articles_history.{LANG_REGION}.csv")
 # Don't compute the embedding for a source that has less than 30 collected articles
 MINIMUM_ARTICLE_HISTORY_SIZE = os.getenv('MINIMUM_ARTICLE_HISTORY_SIZE', 30)
-SOURCE_SIMILARITY_T10 = os.getenv('SOURCE_SIMILARITY_T10', f"source_similarity_t10.{LANG_REGION}")
-SOURCE_SIMILARITY_T10_HR = os.getenv('SOURCE_SIMILARITY_T10_HR', f"source_similarity_t10_hr.{LANG_REGION}")
+SOURCE_SIMILARITY_T10 = os.getenv('SOURCE_SIMILARITY_T10', "source_similarity_t10.{LANG_REGION}")
+SOURCE_SIMILARITY_T10_HR = os.getenv('SOURCE_SIMILARITY_T10_HR', "source_similarity_t10_hr.{LANG_REGION}")
 
-SOURCE_EMBEDDINGS = os.getenv('SOURCE_EMBEDDINGS', f"SOURCE_EMBEDDINGS.{LANG_REGION}")
+SOURCE_EMBEDDINGS = os.getenv('SOURCE_EMBEDDINGS', "SOURCE_EMBEDDINGS.{LANG_REGION}")
