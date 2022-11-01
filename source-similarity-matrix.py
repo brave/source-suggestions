@@ -112,7 +112,7 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
         source_id = get_source_id_for_title(feed, sources_df)
 
         for j in range(sim_matrix.shape[0]):
-            if i == j or math.isnan(sim_matrix[i, j]) or sim_matrix[i, j] == 0:
+            if i == j or math.isnan(sim_matrix[i, j]) or sim_matrix[i, j] == 0.5:
                 continue
             sources_ranking.append((publisher_titles[j], sim_matrix[i, j]))
 
