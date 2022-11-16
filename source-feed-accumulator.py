@@ -60,4 +60,4 @@ for lang_region, model in config.LANG_REGION_MODEL_MAP:
                     config.PUB_S3_BUCKET,
                     f"source-suggestions/{config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region)}")
 
-    logger.info("Finished uplodaing articles_history.")
+    logger.info("Finished uploading articles_history.")
