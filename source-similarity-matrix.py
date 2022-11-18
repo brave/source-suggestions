@@ -50,6 +50,7 @@ def get_source_id_for_title(title, sources_df):
     return sources_df[sources_df.publisher_name == title].publisher_id.to_numpy()[0]
 
 
+# Compute similarity matrix for all existing LANG_REGION pairs
 for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
     logger.info(f"Started computing similarity matrix for {lang_region} using {model_url}")
 
@@ -82,16 +83,20 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
     logger.info("Building sources embeddings...")
     publisher_ids = sources_df.publisher_id.to_numpy()
     logger.info(f"Publisher ids size: {publisher_ids.size}")
+
+    # For each publisher, compute source representations from all stored
+    # articles for that publisher.
     reprs = np.zeros((publisher_ids.size, 512))
     for i, publisher_id in tqdm(enumerate(publisher_ids)):
         reprs[i, :] = compute_source_representation_from_articles(articles_df, publisher_id)
 
     sources_representation = pd.DataFrame({'publisher_id': publisher_ids})
     sources_representation = pd.concat([sources_representation, pd.DataFrame(reprs)], axis=1)
-    sources_representation.to_csv(f'output/{config.SOURCE_EMBEDDINGS.format(LANG_REGION=lang_region)}.csv', header=None)
-
+    sources_representation.to_csv(
+        f'output/{config.SOURCE_EMBEDDINGS.format(LANG_REGION=lang_region)}.csv', header=None)
     logger.info("Finished building source embeddings.")
 
+    # For each source pair, compute pair similarity
     sim_matrix = np.zeros((publisher_ids.size, publisher_ids.size))
     for i in range(publisher_ids.size):
         for j in range(i + 1, publisher_ids.size):
@@ -100,9 +105,10 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
             sim = compute_source_similarity(repr_i, repr_j)
             sim_matrix[i, j] = sim
             sim_matrix[j, i] = sim
-
     logger.info("Finished computing similarity matrix. Outputting results...")
 
+    # Produce T10 (top10) output files. T10_HR stands for Human Readable and
+    # exists for debugging purposes.
     publisher_titles = sources_df.publisher_name.to_numpy()
     logger.info(f"Publisher titles size: {publisher_titles.size}")
     top10_dictionary = {}
@@ -116,19 +122,22 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
                 continue
             sources_ranking.append((publisher_titles[j], sim_matrix[i, j]))
 
+        # Sort sources by descending similarity score
         sources_ranking.sort(key=lambda x: -x[1])
 
+        # Only include suggestion if within 10% of the score of the best match
+        top_similarity_score = sources_ranking[0][1]
+        similarity_cutoff = config.SIMILARITY_CUTOFF_RATIO * top_similarity_score
         top10_dictionary[source_id] = [{'source': get_source_id_for_title(source[0], sources_df), 'score': source[1]} for
-                                       source in sources_ranking[:10]]
+                                       source in sources_ranking[:10] if source[1] > similarity_cutoff]
         top10_dictionary_human_readable[feed] = [{'source': source[0], 'score': source[1]} for source in
-                                                 sources_ranking[:10]]
+                                                 sources_ranking[:10] if source[1] > similarity_cutoff]
 
     with open(f'output/{config.SOURCE_SIMILARITY_T10.format(LANG_REGION=lang_region)}.json', 'w', encoding='utf-8') as f:
         json.dump(top10_dictionary, f, ensure_ascii=True, indent=4)
-
     with open(f'output/{config.SOURCE_SIMILARITY_T10_HR.format(LANG_REGION=lang_region)}.json', 'w', encoding='utf-8') as f:
-        json.dump(top10_dictionary_human_readable, f, ensure_ascii=True, indent=4)
-
+        json.dump(top10_dictionary_human_readable,
+                  f, ensure_ascii=True, indent=4)
     logger.info("Script has finished running.")
 
     if not config.NO_UPLOAD:
