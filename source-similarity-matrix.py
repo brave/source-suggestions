@@ -125,8 +125,10 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
         # Sort sources by descending similarity score
         sources_ranking.sort(key=lambda x: -x[1])
 
-        # Only include suggestion if within 10% of the score of the best match
-        top_similarity_score = sources_ranking[0][1]
+        # Only include suggestion if within 10% of the best match's score
+        top_similarity_score = 0.0
+        if sources_ranking:
+          top_similarity_score = sources_ranking[0][1]
         similarity_cutoff = config.SIMILARITY_CUTOFF_RATIO * top_similarity_score
         top10_dictionary[source_id] = [{'source': get_source_id_for_title(source[0], sources_df), 'score': source[1]} for
                                        source in sources_ranking[:10] if source[1] > similarity_cutoff]
