@@ -72,7 +72,8 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
     sources_df = pd.json_normalize(sources_data)
     sources_df["source_representation"] = np.nan
 
-    articles_df = pd.read_csv(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region), header=None)
+    articles_df = pd.read_csv(config.OUTPUT_DIR + '/' + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region),
+                              header=None)
     articles_df.columns = ['title', 'description', 'timestamp', 'publisher_id']
 
     logger.info("Loading Universal Sentence Encoder...")
@@ -90,6 +91,7 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
     for i, publisher_id in tqdm(enumerate(publisher_ids)):
         reprs[i, :] = compute_source_representation_from_articles(articles_df, publisher_id)
 
+    logger.info(f"Computing sources representations for {lang_region}")
     sources_representation = pd.DataFrame({'publisher_id': publisher_ids})
     sources_representation = pd.concat([sources_representation, pd.DataFrame(reprs)], axis=1)
     sources_representation.to_csv(
@@ -135,11 +137,12 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
         top10_dictionary_human_readable[feed] = [{'source': source[0], 'score': source[1]} for source in
                                                  sources_ranking[:10] if source[1] > similarity_cutoff]
 
+    logger.info("Outputting sources similarities files")
     with open(f'output/{config.SOURCE_SIMILARITY_T10.format(LANG_REGION=lang_region)}.json', 'w', encoding='utf-8') as f:
-        json.dump(top10_dictionary, f, ensure_ascii=True, indent=4)
+        json.dump(top10_dictionary, f, ensure_ascii=True)
     with open(f'output/{config.SOURCE_SIMILARITY_T10_HR.format(LANG_REGION=lang_region)}.json', 'w', encoding='utf-8') as f:
         json.dump(top10_dictionary_human_readable,
-                  f, ensure_ascii=True, indent=4)
+                  f, ensure_ascii=True)
     logger.info("Script has finished running.")
 
     if not config.NO_UPLOAD:

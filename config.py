@@ -1,8 +1,5 @@
 import os
 
-# Set to INFO to see some output during long-running steps.
-LOG_LEVEL = os.getenv('LOG_LEVEL', 'WARNING')
-
 # Disable uploads to S3. Useful when running locally or in CI.
 NO_UPLOAD = os.getenv('NO_UPLOAD', None)
 NO_DOWNLOAD = os.getenv('NO_DOWNLOAD', None)
