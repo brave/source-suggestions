@@ -54,12 +54,12 @@ def get_source_id_for_title(title, sources_df):
 for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
     logger.info(f"Started computing similarity matrix for {lang_region} using {model_url}")
 
+    pathlib.Path(config.OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+
     if not config.NO_DOWNLOAD:
-        download_file(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region),
+        download_file(config.OUTPUT_DIR + "/" + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region),
                       config.PUB_S3_BUCKET,
                       f"source-suggestions/{config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region)}")
-
-    pathlib.Path(config.OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
     sources_file = f'{config.SOURCES_JSON_FILE.format(LANG_REGION=lang_region)}.json'
 
@@ -146,14 +146,14 @@ for lang_region, model_url in config.LANG_REGION_MODEL_MAP:
     logger.info("Script has finished running.")
 
     if not config.NO_UPLOAD:
-        upload_file(config.OUTPUT_DIR + f'/{config.SOURCE_SIMILARITY_T10.format(LANG_REGION=lang_region)}.json',
+        upload_file(config.OUTPUT_DIR + "/" + f'/{config.SOURCE_SIMILARITY_T10.format(LANG_REGION=lang_region)}.json',
                     config.PUB_S3_BUCKET,
                     f"source-suggestions/{config.SOURCE_SIMILARITY_T10.format(LANG_REGION=lang_region)}.json")
 
-        upload_file(config.OUTPUT_DIR + f'/{config.SOURCE_SIMILARITY_T10_HR.format(LANG_REGION=lang_region)}.json',
+        upload_file(config.OUTPUT_DIR + "/" + f'/{config.SOURCE_SIMILARITY_T10_HR.format(LANG_REGION=lang_region)}.json',
                     config.PUB_S3_BUCKET,
                     f"source-suggestions/{config.SOURCE_SIMILARITY_T10_HR.format(LANG_REGION=lang_region)}.json")
 
-        upload_file(config.OUTPUT_DIR + f'/{config.SOURCE_EMBEDDINGS.format(LANG_REGION=lang_region)}.csv',
+        upload_file(config.OUTPUT_DIR + "/" + f'/{config.SOURCE_EMBEDDINGS.format(LANG_REGION=lang_region)}.csv',
                     config.PUB_S3_BUCKET,
                     f"source-suggestions/{config.SOURCE_EMBEDDINGS.format(LANG_REGION=lang_region)}.csv")
