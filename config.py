@@ -4,6 +4,9 @@ import os
 NO_UPLOAD = os.getenv('NO_UPLOAD', None)
 NO_DOWNLOAD = os.getenv('NO_DOWNLOAD', None)
 
+# Set the number of processes to spawn for all multiprocessing tasks.
+CONCURRENCY = max(1, int(os.getenv('CONCURRENCY', os.cpu_count())))
+
 PCDN_URL_BASE = os.getenv('PCDN_URL_BASE', 'https://pcdn.brave.software')
 PUB_S3_BUCKET = os.getenv('PUB_S3_BUCKET', 'brave-today-cdn-development')
 # Canonical ID of the public S3 bucket
