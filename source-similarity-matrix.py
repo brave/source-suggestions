@@ -34,7 +34,7 @@ def upload_source_sim_files(lang_region):
                     f"source-suggestions/{config.SOURCE_EMBEDDINGS.format(LANG_REGION=lang_region)}.csv")
 
 
-def compute_sources_representations(model_lang):
+def update_source_sim_files(model_lang):
     def embed(input):
         return model(input)
 
@@ -159,15 +159,16 @@ def compute_sources_representations(model_lang):
               encoding='utf-8') as f:
         json.dump(top10_dictionary_human_readable,
                   f, ensure_ascii=True)
-    logger.info("Script has finished running.")
+
     upload_source_sim_files(lang_region)
+    logger.info("Script has finished running.")
 
 
 if __name__ == '__main__':
     # Compute similarity matrix for all existing LANG_REGION pairs
     logger.info(f"Number of cpu : {config.CONCURRENCY}")
     with multiprocessing.Pool(config.CONCURRENCY) as pool:
-        tqdm(pool.map(compute_sources_representations, config.LANG_REGION_MODEL_MAP),
+        tqdm(pool.map(update_source_sim_files, config.LANG_REGION_MODEL_MAP),
              total=len(config.LANG_REGION_MODEL_MAP))
 
     logger.info("Completed Sources Similarity")
