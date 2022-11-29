@@ -161,7 +161,7 @@ def update_source_sim_files(model_lang):
                   f, ensure_ascii=True)
 
     upload_source_sim_files(lang_region)
-    logger.info("Script has finished running.")
+    logger.info(f"Updated similarity file for {lang_region}")
 
 
 if __name__ == '__main__':
@@ -171,4 +171,4 @@ if __name__ == '__main__':
         tqdm(pool.map(update_source_sim_files, config.LANG_REGION_MODEL_MAP),
              total=len(config.LANG_REGION_MODEL_MAP))
 
-    logger.info("Completed Sources Similarity")
+    logger.info("Script has finished running.")
