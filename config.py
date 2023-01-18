@@ -13,7 +13,7 @@ BRAVE_TODAY_CLOUDFRONT_CANONICAL_ID = os.getenv('BRAVE_TODAY_CLOUDFRONT_CANONICA
 LANG_REGION_MODEL_MAP = os.getenv('LANG_REGION_MODEL_MAP', [
     ('en_US', "https://tfhub.dev/google/universal-sentence-encoder/4"),
     ('en_CA', "https://tfhub.dev/google/universal-sentence-encoder/4"),
-    ('en_UK', "https://tfhub.dev/google/universal-sentence-encoder/4"),
+    ('en_GB', "https://tfhub.dev/google/universal-sentence-encoder/4"),
     ('es_ES', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
     ('es_MX', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
     ('pt_BR', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
