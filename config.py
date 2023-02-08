@@ -1,4 +1,5 @@
 import os
+from multiprocessing import cpu_count
 
 # Disable uploads to S3. Useful when running locally or in CI.
 NO_UPLOAD = os.getenv('NO_UPLOAD', None)
@@ -33,6 +34,9 @@ SOURCE_SIMILARITY_T10 = os.getenv('SOURCE_SIMILARITY_T10', "source_similarity_t1
 SOURCE_SIMILARITY_T10_HR = os.getenv('SOURCE_SIMILARITY_T10_HR', "source_similarity_t10_hr.{LANG_REGION}")
 
 SOURCE_EMBEDDINGS = os.getenv('SOURCE_EMBEDDINGS', "SOURCE_EMBEDDINGS.{LANG_REGION}")
+
+# Set the number of processes to spawn for all multiprocessing tasks.
+CONCURRENCY = cpu_count()
 
 if SENTRY_URL := os.getenv('SENTRY_URL'):
     import sentry_sdk
