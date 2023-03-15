@@ -10,4 +10,4 @@ tensorflow_hub==0.12.0
 tqdm==4.65.0
 boto3==1.26.14
 botocore==1.29.14
-structlog==22.2.0
+structlog==22.3.0
