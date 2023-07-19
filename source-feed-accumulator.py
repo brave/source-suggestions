@@ -4,6 +4,7 @@ import pathlib
 import pandas as pd
 from structlog import get_logger
 from tqdm import tqdm
+from multiprocessing import Pool as ProcessPool
 
 import config
 from utils import download_file, upload_file
@@ -28,7 +29,9 @@ def accumulate_articles(articles, lang_region):
             f.write('"' + '","'.join([title, description, publish_time, publisher_id]) + '"\n')
 
 
-for lang_region, model in config.LANG_REGION_MODEL_MAP:
+def main(lang_region_model_map):
+    lang_region, _ = lang_region_model_map
+
     logger.info(f"Starting feeds accumulator for {lang_region}")
 
     feed_file = f'{config.FEED_JSON_FILE.format(LANG_REGION=lang_region)}.json'
@@ -56,3 +59,10 @@ for lang_region, model in config.LANG_REGION_MODEL_MAP:
                     f"source-suggestions/{config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region)}")
 
     logger.info("Finished sanitizing articles_history.")
+
+
+
+if __name__ == '__main__':
+    with ProcessPool(config.CONCURRENCY) as pool:
+        for item in pool.imap_unordered(main, config.LANG_REGION_MODEL_MAP):
+            pass
