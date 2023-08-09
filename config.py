@@ -11,12 +11,13 @@ BRAVE_TODAY_CANONICAL_ID = os.getenv('BRAVE_TODAY_CANONICAL_ID', None)
 BRAVE_TODAY_CLOUDFRONT_CANONICAL_ID = os.getenv('BRAVE_TODAY_CLOUDFRONT_CANONICAL_ID', None)
 
 LANG_REGION_MODEL_MAP = os.getenv('LANG_REGION_MODEL_MAP', [
-    ('en_US', "https://tfhub.dev/google/universal-sentence-encoder/4"),
-    ('en_CA', "https://tfhub.dev/google/universal-sentence-encoder/4"),
-    ('es_ES', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
-    ('es_MX', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
-    ('pt_BR', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
-    ('ja_JP', 'https://tfhub.dev/google/universal-sentence-encoder-multilingual-large/3'),
+    ('en_US', "sentence-transformers/all-MiniLM-L6-v2"),
+    ('en_CA', "sentence-transformers/all-MiniLM-L6-v2"),
+    ('en_GB', "sentence-transformers/all-MiniLM-L6-v2"),
+    ('es_ES', 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'),
+    ('es_MX', 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'),
+    ('pt_BR', 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'),
+    ('ja_JP', 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'),
 ])
 
 SOURCES_JSON_FILE = os.getenv('SOURCES_JSON_FILE', 'sources.{LANG_REGION}')
@@ -32,3 +33,7 @@ SOURCE_SIMILARITY_T10 = os.getenv('SOURCE_SIMILARITY_T10', "source_similarity_t1
 SOURCE_SIMILARITY_T10_HR = os.getenv('SOURCE_SIMILARITY_T10_HR', "source_similarity_t10_hr.{LANG_REGION}")
 
 SOURCE_EMBEDDINGS = os.getenv('SOURCE_EMBEDDINGS', "SOURCE_EMBEDDINGS.{LANG_REGION}")
+
+if SENTRY_URL := os.getenv('SENTRY_URL'):
+    import sentry_sdk
+    sentry_sdk.init(dsn=SENTRY_URL, traces_sample_rate=0)
