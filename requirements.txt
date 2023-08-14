@@ -1,5 +1,5 @@
 feedparser==6.0.10
-numpy==1.23.5
+numpy==1.25.2
 pandas==1.5.1
 requests==2.31.0
 scipy==1.9.3
