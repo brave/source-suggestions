@@ -1,0 +1,19 @@
+name: Test
+
+on:
+  pull_request
+
+jobs:
+  pull_request:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python Version
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          cache: 'pip' # caching pip dependencies
+      - name: Install Python dependencies
+        run: pip install -r requirements.dev.txt
+      - name: Run pre-commit
+        uses: pre-commit/action@v3.0.0
