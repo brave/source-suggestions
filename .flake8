@@ -1,0 +1,8 @@
+[flake8]
+ignore = E203, W503, F541
+max-line-length = 120
+max-doc-length = 120
+max-complexity = 10
+exclude = .venv,cookiecutter,.git,.local,.idea,.mypy_cache,.pytest_cache
+per-file-ignores =
+    per-file-ignores = __init__.py:F401

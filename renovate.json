@@ -2,5 +2,23 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  "schedule": [
+    "every 7 days"
+  ],
+  "baseBranches": [
+    "master"
+  ],
+  "pre-commit": {
+    "enabled": true
+  },
+  "pip_requirements": {
+    "fileMatch": ["requirements.*"]
+  },
+  "packageRules": [
+    {
+      "packagePatterns": ["^regex$"],
+      "enabled": false
+    }
   ]
 }
