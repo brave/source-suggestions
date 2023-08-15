@@ -14,10 +14,15 @@ LANG_REGION_MODEL_MAP = os.getenv('LANG_REGION_MODEL_MAP', [
     ('en_US', "sentence-transformers/all-MiniLM-L6-v2"),
     ('en_CA', "sentence-transformers/all-MiniLM-L6-v2"),
     ('en_GB', "sentence-transformers/all-MiniLM-L6-v2"),
-    ('es_ES', 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'),
-    ('es_MX', 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'),
-    ('pt_BR', 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'),
-    ('ja_JP', 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'),
+    ('es_ES', "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"),
+    ('es_MX', "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"),
+    ('pt_BR', "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"),
+    ('ja_JP', "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"),
+    ('de_DE', "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"),
+    ('fr_FR', "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"),
+    ('en_AU', "sentence-transformers/all-MiniLM-L6-v2"),
+    ('en_IN', "sentence-transformers/all-MiniLM-L6-v2"),
+
 ])
 
 SOURCES_JSON_FILE = os.getenv('SOURCES_JSON_FILE', 'sources.{LANG_REGION}')
