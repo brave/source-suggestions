@@ -14,6 +14,10 @@ logger = get_logger()
 def sanitize_articles_history(lang_region):
     articles_history_df = pd.read_csv(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region))
     articles_history_df = articles_history_df.drop_duplicates().dropna()
+    cutoff_date = pd.Timestamp.now().normalize() - pd.Timedelta(days=3*31)
+    # purge articles older than 3 months
+    articles_history_df = articles_history_df[pd.to_datetime(
+        articles_history_df.iloc[:, 2]) > cutoff_date]
     articles_history_df.to_csv(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region), index=False)
 
 
@@ -49,10 +53,11 @@ for lang_region, model in config.LANG_REGION_MODEL_MAP:
 
     logger.info("Start sanitizing articles_history...")
     sanitize_articles_history(lang_region)
+    logger.info("Finished sanitizing articles_history.")
 
     if not config.NO_UPLOAD:
         upload_file(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region),
                     config.PUB_S3_BUCKET,
                     f"source-suggestions/{config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region)}")
 
-    logger.info("Finished sanitizing articles_history.")
+    logger.info("Finished uploading articles_history.")
