@@ -39,14 +39,20 @@ for lang_region, model in config.LANG_REGION_MODEL_MAP:
 
     pathlib.Path(config.OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
-    if not config.NO_DOWNLOAD:
-        download_file(feed_file, config.PUB_S3_BUCKET, f"brave-today/{feed_file}")
-        download_file(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region),
-                      config.PUB_S3_BUCKET,
-                      f"source-suggestions/{config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region)}")
+    try:
 
-    with open(feed_file) as feeds:
-        feeds_data = json.loads(feeds.read())
+        if not config.NO_DOWNLOAD:
+            download_file(feed_file, config.PUB_S3_BUCKET, f"brave-today/{feed_file}")
+            download_file(config.OUTPUT_DIR + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region),
+                          config.PUB_S3_BUCKET,
+                          f"source-suggestions/{config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region)}")
+
+        with open(feed_file) as feeds:
+            feeds_data = json.loads(feeds.read())
+
+    except Exception as e:
+        logger.info(e)
+        continue
 
     accumulate_articles(feeds_data, lang_region)
     logger.info("Finished feeds accumulator")

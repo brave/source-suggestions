@@ -25,18 +25,24 @@ for lang_region, model_name in config.LANG_REGION_MODEL_MAP:
 
     pathlib.Path(config.OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
-    if not config.NO_DOWNLOAD:
-        download_file(config.OUTPUT_DIR + "/" + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region),
-                      config.PUB_S3_BUCKET,
-                      f"source-suggestions/{config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region)}")
+    try:
 
-    sources_file = f'{config.SOURCES_JSON_FILE.format(LANG_REGION=lang_region)}.json'
+        if not config.NO_DOWNLOAD:
+            download_file(config.OUTPUT_DIR + "/" + config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region),
+                          config.PUB_S3_BUCKET,
+                          f"source-suggestions/{config.ARTICLE_HISTORY_FILE.format(LANG_REGION=lang_region)}")
 
-    if not config.NO_DOWNLOAD:
-        download_file(sources_file, config.PUB_S3_BUCKET, sources_file)
+        sources_file = f'{config.SOURCES_JSON_FILE.format(LANG_REGION=lang_region)}.json'
 
-    with open(sources_file) as sources:
-        sources_data = json.loads(sources.read())
+        if not config.NO_DOWNLOAD:
+            download_file(sources_file, config.PUB_S3_BUCKET, sources_file)
+
+        with open(sources_file) as sources:
+            sources_data = json.loads(sources.read())
+
+    except Exception as e:
+        logger.info(e)
+        continue
 
     sources_df = pd.json_normalize(sources_data)
     sources_df["source_representation"] = np.nan
