@@ -2,5 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>brave/renovate-config"
-  ]
+  ],
+  "schedule": [
+    "every 7 days"
+  ],
+  "baseBranches": [
+    "master"
+  ],
+  "pip_requirements": {
+    "fileMatch": ["requirements.*"]
+  }
 }
