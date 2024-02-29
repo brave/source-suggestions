@@ -4,12 +4,14 @@
     "local>brave/renovate-config"
   ],
   "schedule": [
-    "every 7 days"
+    "every 7 day"
   ],
   "baseBranches": [
     "master"
   ],
   "pip_requirements": {
-    "fileMatch": ["requirements.*"]
+    "fileMatch": [
+      "requirements.*"
+    ]
   }
 }
