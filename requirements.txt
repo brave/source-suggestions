@@ -10,5 +10,5 @@ boto3==1.26.14
 botocore==1.29.14
 structlog==23.1.0
 torch==2.0.1
-torchvision==0.15.2
+torchvision==0.18.0
 transformers==4.36.0
