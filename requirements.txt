@@ -3,7 +3,7 @@ numpy==1.23.5
 pandas==1.5.1
 requests==2.32.3
 scipy==1.10.0
-sentence-transformers==2.2.2
+sentence-transformers==2.7.0
 sentry-sdk==2.8.0
 tqdm==4.66.4
 boto3==1.26.14
