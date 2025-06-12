@@ -7,7 +7,7 @@ sentence-transformers==3.0.1
 sentry-sdk==1.45.1
 tqdm==4.66.4
 boto3==1.38.30
-botocore==1.29.14
+botocore==1.38.30
 structlog==23.3.0
 torch==2.6.0
 transformers==4.52.4
