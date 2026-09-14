@@ -22,6 +22,7 @@ LANG_REGION_MODEL_MAP = os.getenv('LANG_REGION_MODEL_MAP', [
     ('en_AU', "sentence-transformers/all-MiniLM-L6-v2"),
     ('en_IN', "sentence-transformers/all-MiniLM-L6-v2"),
     ('ja_JP', "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"),
+    ('es_AR', "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"),
 ])
 
 SOURCES_JSON_FILE = os.getenv('SOURCES_JSON_FILE', 'sources.{LANG_REGION}')

@@ -11,3 +11,8 @@ __pycache__/
 /sources.csv.json
 .pytest_cache/*
 .idea/
+articles_history.en_US.csv
+source_similarity_t10.en_US.json
+source_similarity_t10_hr.en_US.json
+feed.en_US.json
+sources.en_US.json
