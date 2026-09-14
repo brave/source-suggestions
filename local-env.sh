@@ -10,7 +10,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 # Ensure the correct Python version is being used
-pyenv global 3.9.11
+pyenv global 3.11.11
 eval "$(pyenv init --path)"
 
 # Install the required packages
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 # Print completion messages
 echo "---------------------------"
 echo ".venv recreated and sourced"
-echo "Set python version to 3.9.11"
+echo "Set python version to 3.11.11"
 echo "Installed requirements"
 echo "Complete"
 echo "---------------------------"

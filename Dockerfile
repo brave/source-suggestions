@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/python:3.9.11-slim-bullseye
+FROM public.ecr.aws/docker/library/python:3.11-slim-bookworm
 
 RUN mkdir -p app
 WORKDIR /app
